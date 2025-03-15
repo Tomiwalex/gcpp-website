@@ -35,7 +35,7 @@ export default function Cta() {
                 src="/images/cta.png"
                 alt="Team meeting in a conference room"
                 fill
-                className="w-full rounded-lg object-cover"
+                className="w-full object-cover lg:rounded-lg"
               />
             </div>
           </div>
