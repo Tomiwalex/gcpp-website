@@ -49,7 +49,7 @@ export default function Review() {
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {reviews.map((review, index) => (
-            <div key={index} className="inline-block w-[400px]">
+            <div key={index} className="inline-block">
               <ReviewCard
                 name={review.name}
                 books={review.books}

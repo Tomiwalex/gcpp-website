@@ -21,12 +21,13 @@ export default function MemberCard({
   return (
     <div className="bg-background flex items-center gap-[10px] rounded-md border border-[#EAEAEA] p-2">
       {/* Member Image */}
-      <div className="relative h-12 w-12 min-w-12">
+      <div className="relative h-16 w-16 min-w-16 overflow-hidden">
         <Image
           src={imageSrc}
           alt={imageAlt}
           fill
           className="rounded-md object-cover"
+          priority
         />
       </div>
       {/* Member Info */}
