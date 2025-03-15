@@ -1,4 +1,3 @@
-// components/MemberCard.tsx
 'use client';
 
 import Image from 'next/image';
@@ -6,9 +5,8 @@ import Image from 'next/image';
 interface MemberCardProps {
   name: string;
   country: string;
-  flagSrc: string; // URL or path to the flag image
-  imageSrc: string; // URL or path to the member's photo
-  imageAlt: string;
+  flagSrc: string;
+  imageSrc: string;
 }
 
 export default function MemberCard({
@@ -16,7 +14,6 @@ export default function MemberCard({
   country,
   flagSrc,
   imageSrc,
-  imageAlt,
 }: MemberCardProps) {
   return (
     <div className="bg-background flex items-center gap-[10px] rounded-md border border-[#EAEAEA] p-2">
@@ -24,7 +21,7 @@ export default function MemberCard({
       <div className="relative h-16 w-16 min-w-16 overflow-hidden">
         <Image
           src={imageSrc}
-          alt={imageAlt}
+          alt={name}
           fill
           className="rounded-md object-cover"
           priority

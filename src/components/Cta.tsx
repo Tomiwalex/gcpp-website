@@ -9,7 +9,7 @@ export default function Cta() {
       <div className="wrapper">
         <div className="bg-background-gradient border border-solid p-0 lg:px-16 lg:py-10">
           <div className="z-1 grid grid-cols-1 items-center lg:grid-cols-2 lg:gap-8">
-            {/* Left Side: Text and Buttons */}
+            {/*  */}
             <div className="space-y-6 p-5 max-lg:order-2 lg:max-w-[400px] lg:p-0">
               <h2 className="text-[min(10vw,40px)] leading-tight font-medium text-white">
                 Your Story Deserves to Be Told
@@ -29,7 +29,7 @@ export default function Cta() {
               </div>
             </div>
 
-            {/* Right Side: Image */}
+            {/*  */}
             <div className="relative h-[360px] w-full overflow-hidden">
               <Image
                 src="/images/cta.png"

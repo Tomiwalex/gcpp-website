@@ -53,7 +53,6 @@ export default function Authorpreneur() {
                   country={member.country}
                   flagSrc={member.flagSrc}
                   imageSrc={member.imageSrc}
-                  imageAlt={member.imageAlt}
                 />
               </div>
             ))}
@@ -70,7 +69,6 @@ export default function Authorpreneur() {
                   country={member.country}
                   flagSrc={member.flagSrc}
                   imageSrc={member.imageSrc}
-                  imageAlt={member.imageAlt}
                 />
               </div>
             ))}
@@ -87,7 +85,6 @@ export default function Authorpreneur() {
                   country={member.country}
                   flagSrc={member.flagSrc}
                   imageSrc={member.imageSrc}
-                  imageAlt={member.imageAlt}
                 />
               </div>
             ))}
