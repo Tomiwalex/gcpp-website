@@ -2,139 +2,22 @@
 
 import { Button } from '@/components/ui/button';
 import MemberCard from './MemberCard';
-
-const members = [
-  {
-    name: 'Mitchell Schuppe',
-    country: 'Norway',
-    flagSrc: '/flags/norway.png',
-    imageSrc: '/members/mitchell-schuppe.jpg',
-    imageAlt: 'Mitchell Schuppe',
-  },
-  {
-    name: 'Deanna Bradtke',
-    country: 'Cyprus',
-    flagSrc: '/flags/cyprus.png',
-    imageSrc: '/members/deanna-bradtke.jpg',
-    imageAlt: 'Deanna Bradtke',
-  },
-  {
-    name: 'Kristy Batz',
-    country: 'Spain',
-    flagSrc: '/flags/spain.png',
-    imageSrc: '/members/kristy-batz.jpg',
-    imageAlt: 'Kristy Batz',
-  },
-  {
-    name: 'Lucia Schroeder',
-    country: 'Croatia',
-    flagSrc: '/flags/croatia.png',
-    imageSrc: '/members/lucia-schroeder.jpg',
-    imageAlt: 'Lucia Schroeder',
-  },
-  {
-    name: 'Ms. Sheri Davis',
-    country: 'Algeria',
-    flagSrc: '/flags/algeria.png',
-    imageSrc: '/members/sheri-davis.jpg',
-    imageAlt: 'Ms. Sheri Davis',
-  },
-  {
-    name: 'Darrel Zboncak MD',
-    country: 'New Zealand',
-    flagSrc: '/flags/new-zealand.png',
-    imageSrc: '/members/darrel-zboncak.jpg',
-    imageAlt: 'Darrel Zboncak MD',
-  },
-  {
-    name: 'Mitchell Goodwin',
-    country: 'Bermuda',
-    flagSrc: '/flags/bermuda.png',
-    imageSrc: '/members/mitchell-goodwin.jpg',
-    imageAlt: 'Mitchell Goodwin',
-  },
-  {
-    name: 'Grant Sauer',
-    country: 'Greenland',
-    flagSrc: '/flags/greenland.png',
-    imageSrc: '/members/grant-sauer.jpg',
-    imageAlt: 'Grant Sauer',
-  },
-  {
-    name: 'Dr. Sylvester Bruen',
-    country: 'Niue',
-    flagSrc: '/flags/niue.png',
-    imageSrc: '/members/sylvester-bruen.jpg',
-    imageAlt: 'Dr. Sylvester Bruen',
-  },
-  {
-    name: 'Wendell Wilderman',
-    country: 'United Kingdom',
-    flagSrc: '/flags/united-kingdom.png',
-    imageSrc: '/members/wendell-wilderman.jpg',
-    imageAlt: 'Wendell Wilderman',
-  },
-  {
-    name: 'Diana Larson',
-    country: 'Sweden',
-    flagSrc: '/flags/sweden.png',
-    imageSrc: '/members/diana-larson.jpg',
-    imageAlt: 'Diana Larson',
-  },
-  {
-    name: 'Carrie Auer',
-    country: 'Western Sahara',
-    flagSrc: '/flags/western-sahara.png',
-    imageSrc: '/members/carrie-auer.jpg',
-    imageAlt: 'Carrie Auer',
-  },
-  {
-    name: 'Ian Koss',
-    country: 'United States Minor Outlying Islands',
-    flagSrc: '/flags/us-minor-outlying-islands.png',
-    imageSrc: '/members/ian-koss.jpg',
-    imageAlt: 'Ian Koss',
-  },
-  {
-    name: 'Myra Donnelly DDS',
-    country: 'Tokelau',
-    flagSrc: '/flags/tokelau.png',
-    imageSrc: '/members/myra-donnelly.jpg',
-    imageAlt: 'Myra Donnelly DDS',
-  },
-  {
-    name: 'Mr. Ken Brown',
-    country: 'Lithuania',
-    flagSrc: '/flags/lithuania.png',
-    imageSrc: '/members/ken-brown.jpg',
-    imageAlt: 'Mr. Ken Brown',
-  },
-  {
-    name: 'Grace Graham',
-    country: 'Trinidad and Tobago',
-    flagSrc: '/flags/trinidad-and-tobago.png',
-    imageSrc: '/members/grace-graham.jpg',
-    imageAlt: 'Grace Graham',
-  },
-  {
-    name: 'Kristy Wolff Sr.',
-    country: 'Iceland',
-    flagSrc: '/flags/iceland.png',
-    imageSrc: '/members/kristy-wolff.jpg',
-    imageAlt: 'Kristy Wolff Sr.',
-  },
-  {
-    name: 'Angelica Bernathy',
-    country: 'Bhutan',
-    flagSrc: '/flags/bhutan.png',
-    imageSrc: '/members/angelica-bernathy.jpg',
-    imageAlt: 'Angelica Bernathy',
-  },
-];
+import { members } from '@/components/data/members';
 
 export default function Authorpreneur() {
+  const groupSize = Math.ceil(members.length / 3);
+  const group1 = members.slice(0, groupSize);
+  const group2 = members.slice(groupSize, groupSize * 2);
+  const group3 = members.slice(groupSize * 2);
+
+  const duplicateGroup = (group: typeof members) => [
+    ...group,
+    ...group,
+    ...group,
+  ];
+
   return (
-    <section className="bg-gray py-10 lg:py-20">
+    <section className="bg-gray-100 py-10 lg:py-20">
       <div className="wrapper">
         <div className="mx-auto mb-12 max-w-7xl text-center text-balance">
           <div className="grid gap-5">
@@ -149,29 +32,100 @@ export default function Authorpreneur() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-5 lg:flex-nowrap">
-              <Button className="px-10"> Become a member today</Button>
+              <Button className="px-10">Become a member today</Button>
               <Button variant="outline" className="px-10">
                 Explore benefits
               </Button>
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-            {members.map((member, index) => (
-              <MemberCard
-                key={index}
-                name={member.name}
-                country={member.country}
-                flagSrc={member.flagSrc}
-                imageSrc={member.imageSrc}
-                imageAlt={member.imageAlt}
-              />
+      {/* Animated Infinite Scrolling Groups */}
+      <div>
+        {/* Group 1 */}
+        <div className="relative mb-6 overflow-hidden">
+          <div className="animate-scroll animate-scroll-1 space-x-5 whitespace-nowrap">
+            {duplicateGroup(group1).map((member, index) => (
+              <div key={index} className="inline-block min-w-60">
+                <MemberCard
+                  name={member.name}
+                  country={member.country}
+                  flagSrc={member.flagSrc}
+                  imageSrc={member.imageSrc}
+                  imageAlt={member.imageAlt}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Group 2 */}
+        <div className="relative mb-6 overflow-hidden">
+          <div className="animate-scroll animate-scroll-2 space-x-5 whitespace-nowrap">
+            {duplicateGroup(group2).map((member, index) => (
+              <div key={index} className="inline-block min-w-60">
+                <MemberCard
+                  name={member.name}
+                  country={member.country}
+                  flagSrc={member.flagSrc}
+                  imageSrc={member.imageSrc}
+                  imageAlt={member.imageAlt}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Group 3 */}
+        <div className="relative overflow-hidden">
+          <div className="animate-scroll animate-scroll-3 space-x-5 whitespace-nowrap">
+            {duplicateGroup(group3).map((member, index) => (
+              <div key={index} className="inline-block min-w-60">
+                <MemberCard
+                  name={member.name}
+                  country={member.country}
+                  flagSrc={member.flagSrc}
+                  imageSrc={member.imageSrc}
+                  imageAlt={member.imageAlt}
+                />
+              </div>
             ))}
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-33.33%);
+          }
+        }
+
+        .animate-scroll {
+          display: inline-block;
+          animation: scroll linear infinite;
+        }
+
+        .animate-scroll-1 {
+          animation-duration: 15s;
+        }
+
+        .animate-scroll-2 {
+          animation-duration: 17s;
+        }
+
+        .animate-scroll-3 {
+          animation-duration: 19s;
+        }
+
+        .animate-scroll:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </section>
   );
 }

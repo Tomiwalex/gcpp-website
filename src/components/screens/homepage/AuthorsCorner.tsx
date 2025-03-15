@@ -36,7 +36,7 @@ export default function AuthorsCorner() {
   return (
     <section className="py-10 lg:py-20">
       <div className="wrapper">
-        <div className="mx-auto mb-12 max-w-7xl text-center text-balance">
+        <div className="mx-auto mb-12 max-w-6xl text-center text-balance">
           <h2 className="mb-5 text-[min(10vw,40px)] font-bold">
             The Author&apos;s Corner
           </h2>

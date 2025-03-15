@@ -19,25 +19,31 @@ export default function MemberCard({
   imageAlt,
 }: MemberCardProps) {
   return (
-    <div className="flex flex-col items-center">
-      <div className="relative mb-2 h-24 w-24">
+    <div className="bg-background flex items-center gap-[10px] rounded-md border border-[#EAEAEA] p-2">
+      {/* Member Image */}
+      <div className="relative h-12 w-12 min-w-12">
         <Image
           src={imageSrc}
           alt={imageAlt}
           fill
-          className="rounded-lg object-cover"
+          className="rounded-md object-cover"
         />
       </div>
-      <p className="text-sm font-semibold text-gray-900">{name}</p>
-      <div className="flex items-center gap-1">
-        <Image
-          src={flagSrc}
-          alt={`${country} flag`}
-          width={16}
-          height={16}
-          className="object-contain"
-        />
-        <p className="text-xs text-gray-600">{country}</p>
+      {/* Member Info */}
+      <div className="flex flex-col gap-1">
+        <p className="text-foreground/50 text-[min(10vw,14px)] font-semibold">
+          {name}
+        </p>
+        <div className="flex items-center gap-1">
+          <Image
+            src={flagSrc}
+            alt={`${country} flag`}
+            width={16}
+            height={12}
+            className="object-contain"
+          />
+          <p className="text-foreground/50 text-[min(10vw,12px)]">{country}</p>
+        </div>
       </div>
     </div>
   );
