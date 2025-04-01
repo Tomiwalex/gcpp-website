@@ -22,27 +22,33 @@ export default function BlogCard({
   author,
 }: BlogCardProps) {
   return (
-    <div className="overflow-hidden duration-500 ease-linear hover:shadow-md">
-      <div className="relative h-48 w-full">
-        <Image src={imageSrc} alt={title} fill className="object-cover" />
+    <div className="overflow-hidden border-gray-200 transition-all duration-300 ease-in-out select-none hover:border-b lg:max-w-[360px]">
+      <div className="relative h-[214px] w-full overflow-hidden">
+        <Image
+          src={imageSrc}
+          alt={title}
+          fill
+          className="cursor-pointer object-cover transition-all duration-300 ease-in-out hover:scale-105"
+        />
       </div>
+
       <div className="p-6">
         {/* Date and Author */}
-        <p className="text-foreground/50 mb-2 flex gap-2 text-[min(10vw,14px)] text-nowrap">
+        <p className="mb-2 flex gap-2 text-xs font-normal text-nowrap text-[#747998]">
           <span>{date}</span> | <span className="truncate">by {author}</span>
         </p>
         {/* Title */}
-        <h3 className="h-[90px] text-[min(10vw,20px)] font-bold text-gray-900">
+        <h3 className="h-[90px] text-base font-semibold text-[#14120F] lg:text-xl">
           {title}
         </h3>
         {/* Description */}
-        <p className="text-foreground/70 mb-10 line-clamp-[7] text-[min(10vw,14px)]">
+        <p className="mb-10 line-clamp-[7] text-[min(10vw,14px)] leading-[1.54] font-normal text-ellipsis text-[#43413E]">
           {description}
         </p>
         {/* Read More Button */}
         <Button
           variant="outline"
-          className="border-gray-400 px-10 text-gray-700 hover:bg-gray-100"
+          className="border border-[#14120F] px-10 text-[#14120F] hover:bg-[#14120F] hover:text-white"
           asChild
         >
           <Link href={href}>Read More</Link>

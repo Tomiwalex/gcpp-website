@@ -16,23 +16,21 @@ export default function MemberCard({
   imageSrc,
 }: MemberCardProps) {
   return (
-    <div className="bg-background flex items-center gap-[10px] rounded-md border border-[#EAEAEA] p-2">
+    <div className="flex cursor-pointer items-center gap-[10px] rounded border-[0.5px] border-[#EAEAEA] bg-white p-2 text-[#7D7972] transition-all duration-300 ease-in-out select-none hover:bg-[#14120F] hover:text-white">
       {/* Member Image */}
-      <div className="relative h-16 w-16 min-w-16 overflow-hidden">
+      <div className="relative h-[67px] w-[67px] min-w-16 overflow-hidden rounded">
         <Image
           src={imageSrc}
           alt={name}
           fill
-          className="rounded-md object-cover"
+          className="w-full object-cover"
           priority
         />
       </div>
       {/* Member Info */}
       <div className="flex flex-col gap-1">
-        <p className="text-foreground/50 text-[min(10vw,14px)] font-semibold">
-          {name}
-        </p>
-        <div className="flex items-center gap-1">
+        <p className="text-base font-semibold">{name}</p>
+        <div className="-mt-1 flex items-center gap-x-2">
           <Image
             src={flagSrc}
             alt={`${country} flag`}
@@ -40,7 +38,7 @@ export default function MemberCard({
             height={12}
             className="object-contain"
           />
-          <p className="text-foreground/50 text-[min(10vw,12px)]">{country}</p>
+          <p className="text-xs font-normal">{country}</p>
         </div>
       </div>
     </div>

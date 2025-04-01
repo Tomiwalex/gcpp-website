@@ -18,33 +18,32 @@ export default function Authorpreneur() {
 
   return (
     <section className="bg-gray-100 py-10 lg:py-20">
-      <div className="wrapper">
-        <div className="mx-auto mb-12 max-w-7xl text-center text-balance">
-          <div className="grid gap-5">
-            <h2 className="text-[min(10vw,40px)] font-bold">
-              Be Part of Our Authorpreneur Network
-            </h2>
-            <p className="text-[min(10vw,16px)]">
-              Step into a supportive environment at GCPP, where personal growth
-              and professional development go hand in hand. Our membership
-              offers everything you need to thrive as a writer and entrepreneur.
-              From educational resources to business services.
-            </p>
+      <div className="wrapper px-5">
+        <div className="mb-12 text-center">
+          <h2 className="text-4xl font-semibold lg:text-5xl">
+            Be Part of Our Authorpreneur
+            <br /> Network
+          </h2>
+          <p className="mx-auto mt-5 w-full max-w-[930px] text-sm font-normal text-[#14120F] lg:text-base">
+            Step into a supportive environment at GCPP, where personal growth
+            and professional development go hand in hand. Our membership offers
+            everything you need to thrive as a writer and entrepreneur. From
+            educational resources to business services.
+          </p>
 
-            <div className="flex flex-wrap justify-center gap-5 lg:flex-nowrap">
-              <Button className="px-10">Become a member today</Button>
-              <Button variant="outline" className="px-10">
-                Explore benefits
-              </Button>
-            </div>
+          <div className="mt-5 flex flex-wrap justify-center gap-5 lg:mt-6 lg:flex-nowrap">
+            <Button className="px-10">Become a member today</Button>
+            <Button variant="outline" className="px-10">
+              Explore benefits
+            </Button>
           </div>
         </div>
       </div>
 
       {/* Animated Infinite Scrolling Groups */}
-      <div>
+      <div className="lg:mt-2">
         {/* Group 1 */}
-        <div className="relative mb-6 overflow-hidden">
+        <div className="relative mb-6 overflow-hidden lg:mb-8">
           <div className="animate-scroll animate-scroll-1 space-x-5 whitespace-nowrap">
             {duplicateGroup(group1).map((member, index) => (
               <div key={index} className="inline-block min-w-60">
@@ -60,7 +59,7 @@ export default function Authorpreneur() {
         </div>
 
         {/* Group 2 */}
-        <div className="relative mb-6 overflow-hidden">
+        <div className="relative mb-6 overflow-hidden lg:mb-8">
           <div className="animate-scroll animate-scroll-2 space-x-5 whitespace-nowrap">
             {duplicateGroup(group2).map((member, index) => (
               <div key={index} className="inline-block min-w-60">
