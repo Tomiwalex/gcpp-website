@@ -40,7 +40,7 @@ export default function AuthorsCorner() {
           <h2 className="mb-5 text-4xl font-semibold lg:text-5xl">
             The Author&apos;s Corner
           </h2>
-          <p className="mx-auto w-full max-w-[704px] text-sm font-normal text-[#14120f] lg:text-base">
+          <p className="mx-auto w-full max-w-[704px] text-base font-normal text-[#14120f]">
             Your go-to space for tips, inspiring stories, and everything you
             need to navigate your publishing journey.
           </p>

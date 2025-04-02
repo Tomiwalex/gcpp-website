@@ -38,7 +38,7 @@ export default function BlogCard({
           <span>{date}</span> | <span className="truncate">by {author}</span>
         </p>
         {/* Title */}
-        <h3 className="h-[90px] text-base font-semibold text-[#14120F] lg:text-xl">
+        <h3 className="mb-3 text-base font-semibold text-[#14120F] lg:mb-0 lg:h-[90px] lg:text-xl">
           {title}
         </h3>
         {/* Description */}

@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import heroBg from '../../../../public/background-images/hero-bg.png';
 import StarRating from '@/components/customui/StarRating';
+import { Icon } from '@iconify/react/dist/iconify.js';
 
 const HeroSection = () => {
   return (
@@ -34,18 +35,26 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        <div className="mt-[89px] space-y-2 py-5">
-          <p className="font-roboto text-lg font-medium text-white">
+        <div className="mt-5 py-5 lg:mt-[89px]">
+          <p className="font-roboto text-lg leading-[26px] font-medium text-white">
             Excellent
           </p>
 
-          <div className="">
+          <div className="mt-2">
             <StarRating rating={5} />
           </div>
 
-          <small className="font-roboto text-sm leading-[22px] font-normal text-white">
+          <small className="font-roboto mt-2 text-sm leading-[22px] font-normal text-white">
             Based on <b className="underline">455 reviews</b>
           </small>
+
+          <p className="mt-2 flex items-center gap-1 text-base font-medium text-white">
+            <Icon
+              icon="simple-icons:trustpilot"
+              className="text-2xl text-[#219653]"
+            />{' '}
+            Trustpilot
+          </p>
         </div>
       </div>
     </section>
