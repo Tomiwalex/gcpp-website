@@ -30,13 +30,13 @@ export default function AuthorsServices() {
   };
 
   return (
-    <section className="bg-[#F9F9F9] p-5 md:p-12 lg:py-24">
+    <section className="bg-[#F9F9F9] p-5 py-14 md:px-12 lg:py-24">
       <div className="mx-auto w-full max-w-[1284px]">
         <h2 className="mb-5 text-center text-4xl font-semibold text-[#14120F] lg:mb-6 lg:text-[40px]">
           Services for Authors
         </h2>
 
-        <p className="mx-auto max-w-[734px] text-center text-sm leading-[1.5] font-normal text-[#14120f] lg:text-base">
+        <p className="mx-auto max-w-[734px] text-center text-base leading-[1.5] font-normal text-[#14120f]">
           From idea to publication, we guide and support you, ensuring a smooth,
           empowering, and inspiring journey to make your work shine.
         </p>
@@ -54,7 +54,7 @@ export default function AuthorsServices() {
               Publishing
             </h3>
 
-            <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-sm font-normal text-[#14120F] lg:text-base">
+            <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-base font-normal text-[#14120F]">
               Share your story with the world through expertly crafted
               publications.
             </p>
@@ -84,7 +84,7 @@ export default function AuthorsServices() {
               Design
             </h3>
 
-            <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-sm font-normal text-[#14120F] lg:text-base">
+            <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-base font-normal text-[#14120F]">
               Make a bold statement with innovative and unique designs.
             </p>
 
@@ -112,7 +112,7 @@ export default function AuthorsServices() {
               Solutions
             </h3>
 
-            <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-sm font-normal text-[#14120F] lg:text-base">
+            <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-base font-normal text-[#14120F]">
               Overcome challenges with customized solutions tailored for you.
             </p>
 

@@ -24,7 +24,7 @@ export default function Authorpreneur() {
             Be Part of Our Authorpreneur
             <br /> Network
           </h2>
-          <p className="mx-auto mt-5 w-full max-w-[930px] text-sm font-normal text-[#14120F] lg:text-base">
+          <p className="mx-auto mt-5 w-full max-w-[930px] text-base font-normal text-[#14120F]">
             Step into a supportive environment at GCPP, where personal growth
             and professional development go hand in hand. Our membership offers
             everything you need to thrive as a writer and entrepreneur. From

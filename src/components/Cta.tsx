@@ -10,10 +10,10 @@ export default function Cta() {
         <div className="z-1 mx-auto grid max-w-[1086px] grid-cols-1 items-center rounded lg:grid-cols-2 lg:gap-8">
           {/*  */}
           <div className="space-y-6 p-5 max-lg:order-2 lg:max-w-[520px] lg:p-0">
-            <h2 className="text-4xl leading-tight font-medium text-white lg:text-[40px] lg:leading-[53px]">
+            <h2 className="text-[2rem] leading-tight font-medium text-white lg:text-[40px] lg:leading-[53px]">
               Your Story Deserves <br /> to Be Told
             </h2>
-            <p className="text-[min(10vw,20px)] font-normal text-[#C1C1C1]">
+            <p className="text-base font-normal text-[#C1C1C1] lg:text-xl">
               Every story matters. Let’s bring yours to the world with the care
               and excellence it deserves.
             </p>

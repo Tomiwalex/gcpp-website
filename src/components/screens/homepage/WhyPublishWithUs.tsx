@@ -17,7 +17,7 @@ export default function WhyPublishWithUs() {
   ];
 
   return (
-    <section className="p-5 md:p-12 lg:py-24">
+    <section className="p-5 py-14 md:px-12 lg:py-24">
       <div className="mx-auto w-full max-w-[1284px]">
         <h2 className="mb-10 text-center text-3xl font-semibold text-[#14120F] lg:mb-12 lg:text-5xl">
           Why Publish With Us?
@@ -28,7 +28,7 @@ export default function WhyPublishWithUs() {
             {reasons.map((value, index) => (
               <button
                 onClick={e => setReason(value)}
-                className={`text-xl lg:text-2xl ${value === reason ? 'rounded border border-[#EAEAEA] bg-[#FAFAFA] font-semibold text-[#14120F]' : 'border-b border-b-[#EAEAEA] font-medium text-[#D0D0D0]'} group flex h-20 cursor-pointer items-center justify-between gap-2 pr-8 pl-10 transition-all duration-300 ease-in-out lg:pl-14`}
+                className={`text-lg lg:text-2xl ${value === reason ? 'rounded border border-[#EAEAEA] bg-[#FAFAFA] font-semibold text-[#14120F]' : 'border-b border-b-[#EAEAEA] font-medium text-[#D0D0D0]'} group flex h-20 cursor-pointer items-center justify-between gap-2 pr-8 pl-8 transition-all duration-300 ease-in-out lg:pl-14`}
                 key={index}
               >
                 {value}{' '}
