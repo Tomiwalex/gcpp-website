@@ -17,7 +17,7 @@ export default function WhyPublishWithUs() {
   ];
 
   return (
-    <section className="p-5 py-14 md:px-12 lg:py-24">
+    <section className="p-5 py-10 md:px-12 lg:py-24">
       <div className="mx-auto w-full max-w-[1284px]">
         <h2 className="mb-10 text-center text-3xl font-semibold text-[#14120F] lg:mb-12 lg:text-5xl">
           Why Publish With Us?

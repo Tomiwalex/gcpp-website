@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky ${isMenuOpen ? 'top-0' : '-top-12'} bg-[#14120F]`}
+      className={`sticky ${isMenuOpen ? 'top-0' : '-top-12'} z-[10] bg-[#14120F]`}
     >
       <div className="mx-auto w-full max-w-[1512px]">
         <div
@@ -73,7 +73,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="sticky top-0 flex items-center justify-between gap-x-10 p-5">
+        <div className="sticky top-0 z-[10] flex items-center justify-between gap-x-10 p-5">
           <Link href="/">
             <Image alt="gcpp" src={logo} className="h-auto w-[169px]" />
           </Link>
