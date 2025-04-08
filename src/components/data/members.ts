@@ -1,27 +1,33 @@
 export const members = [
   {
-    name: 'Mitchell Schuppe',
-    country: 'Norway',
+    name: 'Dr Leon Moss',
+    country: 'United Kingdom',
     flagSrc: '/images/authorpreneur/Norway (NO).png',
-    imageSrc: '/images/authorpreneur/Mitchell Schuppe.png',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744099990/GCPP/Frontend-images/FB_IMG_1565731169517__1_zd69c6.jpg',
   },
   {
-    name: 'Deanna Bradtke',
+    name: 'Cyrlene B',
     country: 'Cyprus',
     flagSrc: '/images/authorpreneur/Norway (NO).png',
-    imageSrc: '/images/authorpreneur/Deanna Bradtke.png',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744099903/GCPP/Frontend-images/cyrelyene_wgzs5r.jpg',
   },
   {
-    name: 'Kristy Batz',
-    country: 'Spain',
-    flagSrc: '/images/authorpreneur/Spain (ES).png',
-    imageSrc: '/images/authorpreneur/Kristy Batz.png',
+    name: 'Peter Okonkwo',
+    country: 'Nigeria',
+    flagSrc:
+      'https://media.istockphoto.com/id/652740802/vector/nigeria.jpg?s=612x612&w=is&k=20&c=HuvgxqmJhMGBLK9E-Y9jLYE-BG6WLo_I-rLKSWPm_wY=',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744100320/GCPP/Frontend-images/WhatsApp_Image_2025-04-07_at_09.10.27_c57232e6_fawtw0.jpg',
   },
   {
-    name: 'Lucia Schroeder',
-    country: 'Croatia',
-    flagSrc: '/images/authorpreneur/Croatia (HR).png',
-    imageSrc: '/images/authorpreneur/Lucia Schroeder.png',
+    name: 'Chris Hills',
+    country: 'England',
+    flagSrc:
+      'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/twinkl-england-flag-1_ver_1.png',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744100320/GCPP/Frontend-images/WhatsApp_Image_2025-04-07_at_09.14.10_da1e35dd_wkydk6.jpg',
   },
   {
     name: 'Ms. Sheri Davis',
@@ -36,10 +42,12 @@ export const members = [
     imageSrc: '/images/authorpreneur/Darrel Zboncak MD.png',
   },
   {
-    name: 'Mitchell Goodwin',
-    country: 'Bermuda',
-    flagSrc: '/images/authorpreneur/bermuda.png',
-    imageSrc: '/members/mitchell-goodwin.jpg',
+    name: 'Sam The Word',
+    country: 'Zanibar',
+    flagSrc:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Zanzibar.svg/1024px-Flag_of_Zanzibar.svg.png',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744100319/GCPP/Frontend-images/WhatsApp_Image_2025-04-07_at_11.03.16_3f8f1b40_cny8vu.jpg',
   },
   {
     name: 'Grant Sauer',
@@ -52,6 +60,14 @@ export const members = [
     country: 'Niue',
     flagSrc: '/images/authorpreneur/Niue (NU).png',
     imageSrc: '/images/authorpreneur/Dr. Sylvester Bruen.png',
+  },
+  {
+    name: 'Eric Bruce',
+    country: 'USA',
+    flagSrc:
+      '/images/authorpreneur/United States Minor Outlying Islands (UM).png',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744100319/GCPP/Frontend-images/WhatsApp_Image_2025-04-07_at_12.24.24_4aca11c5_nxwabt.jpg',
   },
   {
     name: 'Wendell Wilderman',

@@ -283,21 +283,43 @@ export default function Footer() {
           {/* Join Our List Section */}
           <div className="xl:max-w-[460px]">
             <h3 className="invisible mb-4 max-lg:hidden">Membership</h3>
-            <h3 className="relative bottom-1 mb-3 text-[min(10vw,20px)] font-medium text-[#14120F]">
-              Join Our List
+            <h3 className="relative bottom-1 mb-1 text-[min(10vw,20px)] font-medium text-[#14120F]">
+              Unlock What's Hidden
             </h3>
             <p className="mb-4 text-[min(10vw,12px)] leading-[1.5] font-normal text-[#14120F]">
-              At Golden Child Promotions Publishing, we simplify every step of
-              the publishing process, from manuscript refinement to navigating
-              complex platforms. Our experienced team ensures your book is
-              polished to perfection and ready to reach its audience.
+              (…or keep scrolling like everyone else...) Your inbox becomes a
+              vault. Secrets the algorithms suppress. Forbidden chapters “they”
+              don’t stock in mainstream bookstores. Whispers about the mystical
+              truths nobody dares publish. Until now... We’re not here to sell
+              you “tips.” We’re here to hand you matches in a pitch-black
+              library. <br /> <b>Join the 0.1% who:</b>
+              <br /> - Access publishing backdoors (while others bang on locked
+              doors)
+              <br /> - Decode esoteric knowledge first (before it’s “redacted”)
+              <br />- Own books that don’t just sit on shelves, (they rewrite
+              realities)
+              <br /> You like out-formation, right? “But what if I’m not ready?”
+              Exactly. Enter your name. Claim your access. Before the algorithm
+              notices. (This page may vanish. They don’t like truth-tellers.)
+              P.S. Your future manuscript? It’s already in the vault. Break it
+              out!
             </p>
-            <div className="flex flex-col gap-4">
-              <Input
-                placeholder="Enter your email address"
-                className="h-12 px-5 text-[min(10vw,14px)] font-normal placeholder:text-[#706D6E]"
-              />
-              <Button className="w-fit px-10">Subscribe</Button>
+            <div className="flex flex-col">
+              <div className="flex gap-4">
+                <Input
+                  placeholder="Email"
+                  className="h-12 px-5 text-[min(10vw,14px)] font-normal placeholder:text-[#706D6E]"
+                />
+                <Input
+                  placeholder="First name"
+                  className="h-12 px-5 text-[min(10vw,14px)] font-normal placeholder:text-[#706D6E]"
+                />
+              </div>
+              <small className="mt-1 flex items-center gap-1 text-xs font-normal">
+                <Icon icon="material-symbols-light:info-outline-rounded" /> We
+                will not spam you or sell your information
+              </small>
+              <Button className="mt-4 w-fit px-10">Subscribe</Button>
             </div>
           </div>
         </div>
@@ -329,9 +351,9 @@ export default function Footer() {
               Global Reach | Trusted Support | Seamless Publishing <br /> 📧{' '}
               <Link
                 className="transition-all transition-transform duration-300 ease-in-out hover:text-[#EB9202]"
-                href="mailto:info@gcppublishing.com"
+                href="mailto:ado444@yahoo.com"
               >
-                info@gcppublishing.com{' '}
+                ado444@yahoo.com{' '}
               </Link>
             </p>
 
