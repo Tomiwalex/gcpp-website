@@ -20,7 +20,7 @@ const Header = () => {
     { path: '/bookshop', name: 'Bookshop' },
     { path: '/about', name: 'About us' },
     { path: '/community', name: 'Our Community' },
-    { path: '/blog', name: 'Blog' },
+    { path: '/blog', name: 'Blogs' },
   ];
 
   const subNavList = [

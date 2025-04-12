@@ -8,6 +8,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { Swiper as SwiperType } from 'swiper';
 import Image from 'next/image';
 import StarRating from '@/components/customui/StarRating';
+import { testimonials } from '@/components/data/reviews';
 
 export default function ReviewCard() {
   const swiperRef = useRef<SwiperType | null>(null);
@@ -19,36 +20,6 @@ export default function ReviewCard() {
       swiperRef.current.slideTo(1, 0); // 0ms duration for instant transition
     }
   }, []);
-
-  const testimonials = [
-    {
-      name: 'Cyrlene B',
-      book: ['The Silent Witness'],
-      quote:
-        'Partnering with this team was a journey. They believed in my vision and helped bring it to life.',
-      imgSrc:
-        'https://res.cloudinary.com/degg7xvzv/image/upload/v1744099903/GCPP/Frontend-images/cyrelyene_wgzs5r.jpg',
-      rating: 5,
-    },
-    {
-      name: 'Dr Leon Moss',
-      book: ['The Silent Witness', 'Beyond the Horizon'],
-      quote:
-        'The process felt effortless, and I felt supported every step of the way. My book is everything I dreamed it would be.',
-      imgSrc:
-        'https://res.cloudinary.com/degg7xvzv/image/upload/v1744099990/GCPP/Frontend-images/FB_IMG_1565731169517__1_zd69c6.jpg',
-      rating: 5,
-    },
-    {
-      name: 'Sarah Johnson',
-      book: ['Whispers in the Dark'],
-      quote:
-        'The attention to detail and professional guidance made all the difference in my publishing experience.',
-      imgSrc:
-        'https://res.cloudinary.com/degg7xvzv/image/upload/v1743406499/GCPP/Frontend-images/testimonial-image-2_w8xdkq.png',
-      rating: 4,
-    },
-  ];
 
   return (
     <div className="select-none">

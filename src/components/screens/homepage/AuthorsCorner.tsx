@@ -11,7 +11,7 @@ export default function AuthorsCorner() {
       imageSrc: '/images/blog/blog_1.png',
       href: '/articles/road-to-publishing',
       date: '25 August, 2024',
-      author: 'Kwawd(o) Naya',
+      author: 'Kwadw(o) Naya',
     },
     {
       title: 'Common Mistakes First-Time Authors Make and How to Avoid Them',
@@ -20,7 +20,7 @@ export default function AuthorsCorner() {
       imageSrc: '/images/blog/blog_2.png',
       href: '/articles/common-mistakes',
       date: '25 August, 2024',
-      author: 'Kwawd(o) Naya',
+      author: 'Kwadw(o) Naya',
     },
     {
       title: 'The Benefits of Collaborative Publishing',
@@ -29,7 +29,7 @@ export default function AuthorsCorner() {
       imageSrc: '/images/blog/blog_3.png',
       href: '/articles/collaborative-publishing',
       date: '25 August, 2024',
-      author: 'Kwawd(o) Naya',
+      author: 'Kwadw(o) Naya',
     },
   ];
 

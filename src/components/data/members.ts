@@ -1,15 +1,17 @@
 export const members = [
   {
     name: 'Dr Leon Moss',
-    country: 'United Kingdom',
-    flagSrc: '/images/authorpreneur/Norway (NO).png',
+    country: 'USA',
+    flagSrc:
+      '/images/authorpreneur/United States Minor Outlying Islands (UM).png',
     imageSrc:
       'https://res.cloudinary.com/degg7xvzv/image/upload/v1744099990/GCPP/Frontend-images/FB_IMG_1565731169517__1_zd69c6.jpg',
   },
   {
     name: 'Cyrlene B',
-    country: 'Cyprus',
-    flagSrc: '/images/authorpreneur/Norway (NO).png',
+    country: 'England',
+    flagSrc:
+      'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/twinkl-england-flag-1_ver_1.png',
     imageSrc:
       'https://res.cloudinary.com/degg7xvzv/image/upload/v1744099903/GCPP/Frontend-images/cyrelyene_wgzs5r.jpg',
   },
@@ -60,6 +62,22 @@ export const members = [
     country: 'Niue',
     flagSrc: '/images/authorpreneur/Niue (NU).png',
     imageSrc: '/images/authorpreneur/Dr. Sylvester Bruen.png',
+  },
+  {
+    name: 'Robert L Horton',
+    country: 'USA',
+    flagSrc:
+      '/images/authorpreneur/United States Minor Outlying Islands (UM).png',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744443777/GCPP/Frontend-images/robert.l_emzsh4.jpg',
+  },
+  {
+    name: "Kwadw(o) Naya: Baa Ankh Em Re A'lyun Eil",
+    country: 'Gambia',
+    flagSrc:
+      'https://i0.wp.com/eloquentdisplays.com/wp-content/uploads/2024/09/gambia.jpg',
+    imageSrc:
+      'https://res.cloudinary.com/degg7xvzv/image/upload/v1744444952/GCPP/Frontend-images/kwadw_kibek1.jpg',
   },
   {
     name: 'Eric Bruce',

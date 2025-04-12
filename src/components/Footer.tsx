@@ -286,23 +286,31 @@ export default function Footer() {
             <h3 className="relative bottom-1 mb-1 text-[min(10vw,20px)] font-medium text-[#14120F]">
               Unlock What's Hidden
             </h3>
-            <p className="mb-4 text-[min(10vw,12px)] leading-[1.5] font-normal text-[#14120F]">
-              (…or keep scrolling like everyone else...) Your inbox becomes a
-              vault. Secrets the algorithms suppress. Forbidden chapters “they”
-              don’t stock in mainstream bookstores. Whispers about the mystical
-              truths nobody dares publish. Until now... We’re not here to sell
-              you “tips.” We’re here to hand you matches in a pitch-black
-              library. <br /> <b>Join the 0.1% who:</b>
+            <p className="mb-4 text-[min(10vw,12px)] leading-[1.6] font-normal text-[#14120F]">
+              (…or keep scrolling like everyone else...)
+              <br />
+              Your inbox becomes a vault.
+              <br /> Secrets the algorithms suppress.
+              <br />
+              Forbidden chapters “they” don’t stock in mainstream bookstores.
+              <br />
+              Whispers about the mystical truths nobody dares publish.
+              <br /> Until now...
+              <br /> We’re not here to sell you “tips.” We’re here to hand you
+              matches in a pitch-black library. <br /> <b>Join the 0.1% who:</b>
               <br /> - Access publishing backdoors (while others bang on locked
               doors)
               <br /> - Decode esoteric knowledge first (before it’s “redacted”)
               <br />- Own books that don’t just sit on shelves, (they rewrite
               realities)
-              <br /> You like out-formation, right? “But what if I’m not ready?”
-              Exactly. Enter your name. Claim your access. Before the algorithm
-              notices. (This page may vanish. They don’t like truth-tellers.)
-              P.S. Your future manuscript? It’s already in the vault. Break it
-              out!
+              <br /> You like out-formation, right? <br />
+              “But what if I’m not ready?” Exactly.
+              <br /> Enter your name.
+              <br /> Claim your access. Before the algorithm notices. <br />
+              (This page may vanish. They don’t like truth-tellers.)
+              <br />
+              P.S. Your future manuscript? It’s already in the vault. <br />
+              Break it out!
             </p>
             <div className="flex flex-col">
               <div className="flex gap-4">
@@ -329,7 +337,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="flex items-center space-x-4 max-md:order-3">
             <p className="text-[min(10vw,13px)] leading-[23px]">
-              © 2025 Golden Child Promotions Publishing
+              © 2019 Golden Child Promotions Publishing
             </p>
           </div>
 
@@ -351,9 +359,9 @@ export default function Footer() {
               Global Reach | Trusted Support | Seamless Publishing <br /> 📧{' '}
               <Link
                 className="transition-all transition-transform duration-300 ease-in-out hover:text-[#EB9202]"
-                href="mailto:ado444@yahoo.com"
+                href="mailto:onlygold@goldenchildpromotionspublishing.gold"
               >
-                ado444@yahoo.com{' '}
+                onlygold@goldenchildpromotionspublishing.gold
               </Link>
             </p>
 
