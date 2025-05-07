@@ -19,7 +19,6 @@ export default function AuthorsServices() {
       'Ghostwriting',
       'Editing Services',
       'Copywriting',
-      'Copywriting',
       'Transcription',
       'Consultation & Training',
       'Mentoring',
