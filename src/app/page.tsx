@@ -1,3 +1,4 @@
+import Cta from '@/components/Cta';
 import Authorpreneur from '@/components/screens/homepage/Authorpreneur';
 import AuthorsCorner from '@/components/screens/homepage/AuthorsCorner';
 import AuthorsServices from '@/components/screens/homepage/AuthorsServices';
@@ -20,6 +21,7 @@ export default function Home() {
       <SubmitManuscript />
       <PublishingProcess />
       <PublishingTimeline />
+      <Cta />
     </>
   );
 }

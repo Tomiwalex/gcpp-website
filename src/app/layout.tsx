@@ -2,12 +2,11 @@ import type { Metadata } from 'next';
 import { Manrope } from 'next/font/google';
 import './globals.css';
 import Footer from '@/components/Footer';
-import Cta from '@/components/Cta';
 import Head from 'next/head';
 import Header from '@/components/global/Header';
 
 const manropeSans = Manrope({
-  weight: ['400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
 });
@@ -30,7 +29,6 @@ export default function RootLayout({
       <body className={`${manropeSans.className} antialiased`}>
         <Header />
         {children}
-        <Cta />
         <Footer />
       </body>
     </html>

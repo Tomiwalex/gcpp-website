@@ -4,30 +4,9 @@ import solutionsIcon from '../../../../public/icons/solutions-icon.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Icon } from '@iconify/react/dist/iconify.js';
+import { services } from '@/components/data/services';
 
 export default function AuthorsServices() {
-  const services = {
-    publishing: ['Book Publishing', 'Manuscript Review', 'Audio Book Creation'],
-    design: [
-      'Book Cover Design',
-      'Illustrations',
-      'Web Design',
-      'Video Editing',
-      'Book Formatting',
-    ],
-    solutions: [
-      'Ghostwriting',
-      'Editing Services',
-      'Copywriting',
-      'Transcription',
-      'Consultation & Training',
-      'Mentoring',
-      'Accountability Coaching',
-      'CV Writing & Optimization',
-      'SEO Services',
-    ],
-  };
-
   return (
     <section className="bg-[#F9F9F9] p-5 py-14 md:px-12 lg:py-24">
       <div className="mx-auto w-full max-w-[1284px]">
@@ -50,16 +29,15 @@ export default function AuthorsServices() {
             />
 
             <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
-              Publishing
+              {services.publishing.heading}
             </h3>
 
             <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-base font-normal text-[#14120F]">
-              Share your story with the world through expertly crafted
-              publications.
+              {services.publishing.description}
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.publishing.map((service, index) => (
+              {services.publishing.services.map((service, index) => (
                 <Link
                   href={'#'}
                   key={index}
@@ -80,15 +58,15 @@ export default function AuthorsServices() {
             />
 
             <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
-              Design
+              {services.design.heading}
             </h3>
 
             <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-base font-normal text-[#14120F]">
-              Make a bold statement with innovative and unique designs.
+              {services.design.description}
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.design.map((service, index) => (
+              {services.design.services.map((service, index) => (
                 <Link
                   href={'#'}
                   key={index}
@@ -108,15 +86,15 @@ export default function AuthorsServices() {
               className="h-auto w-12 lg:w-14"
             />
             <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
-              Solutions
+              {services.solutions.heading}
             </h3>
 
             <p className="mx-auto mt-1 w-full max-w-[320px] text-center text-base font-normal text-[#14120F]">
-              Overcome challenges with customized solutions tailored for you.
+              {services.solutions.description}
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.solutions.map((service, index) => (
+              {services.solutions.services.map((service, index) => (
                 <Link
                   href={'#'}
                   key={index}
