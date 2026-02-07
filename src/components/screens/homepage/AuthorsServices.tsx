@@ -22,6 +22,8 @@ export default function AuthorsServices() {
             <Image
               src={'/icons/publishing-icon.png'}
               alt="publishing"
+              width={50}
+              height={50}
               className="h-auto w-12 lg:w-14"
             />
 
@@ -51,6 +53,8 @@ export default function AuthorsServices() {
             <Image
               src={'/icons/design-icon.png'}
               alt="design"
+              width={50}
+              height={50}
               className="h-auto w-12 lg:w-14"
             />
 
@@ -80,6 +84,8 @@ export default function AuthorsServices() {
             <Image
               src={'/icons/solutions-icon.png'}
               alt="solutions"
+              width={50}
+              height={50}
               className="h-auto w-12 lg:w-14"
             />
             <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">

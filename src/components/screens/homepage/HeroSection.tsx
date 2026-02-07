@@ -51,7 +51,7 @@ const HeroSection = () => {
       </div>
 
       {/* bg image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-[-1]">
         <Image
           src="/background-images/hero-bg.png"
           alt="hero-bg"
