@@ -1,6 +1,3 @@
-import publishingIcon from '../../../../public/icons/publishing-icon.png';
-import designIcon from '../../../../public/icons/design-icon.png';
-import solutionsIcon from '../../../../public/icons/solutions-icon.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Icon } from '@iconify/react/dist/iconify.js';
@@ -23,7 +20,7 @@ export default function AuthorsServices() {
         <div className="mt-12 grid grid-cols-1 gap-[18px] md:grid-cols-3">
           <div className="flex flex-col items-center rounded border border-[#D0CCCC] bg-white p-5 py-8 lg:px-12">
             <Image
-              src={publishingIcon}
+              src={'/icons/publishing-icon.png'}
               alt="publishing"
               className="h-auto w-12 lg:w-14"
             />
@@ -52,7 +49,7 @@ export default function AuthorsServices() {
           {/* design services */}
           <div className="flex flex-col items-center rounded border border-[#D0CCCC] bg-white p-5 py-8 lg:px-12">
             <Image
-              src={designIcon}
+              src={'/icons/design-icon.png'}
               alt="design"
               className="h-auto w-12 lg:w-14"
             />
@@ -81,7 +78,7 @@ export default function AuthorsServices() {
           {/* solutions service */}
           <div className="flex flex-col items-center rounded border border-[#D0CCCC] bg-white p-5 py-8 lg:px-12">
             <Image
-              src={solutionsIcon}
+              src={'/icons/solutions-icon.png'}
               alt="solutions"
               className="h-auto w-12 lg:w-14"
             />
