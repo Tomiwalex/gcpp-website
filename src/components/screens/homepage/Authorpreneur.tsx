@@ -18,7 +18,7 @@ export default function Authorpreneur() {
 
   return (
     <section className="bg-gray-100 py-10 lg:py-20">
-      <div className="wrapper px-5">
+      <div className="mx-auto w-full max-w-[1512px] px-5 md:px-[100px]">
         <div className="mb-12 text-center">
           <h2 className="text-4xl font-semibold lg:text-5xl">
             Be Part of Our Authorpreneur

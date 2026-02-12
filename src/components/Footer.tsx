@@ -11,8 +11,8 @@ import { Icon } from '@iconify/react/dist/iconify.js';
 
 export default function Footer() {
   return (
-    <footer className="text-foreground border-t border-t-[#E9E9E9] px-5 py-8 md:px-[50px]">
-      <div className="mx-auto max-w-[1288px]">
+    <footer className="text-foreground border-t border-t-[#E9E9E9] px-5 py-8 md:px-[100px]">
+      <div className="mx-auto max-w-[1512px]">
         {/* Desktop View: Grid Layout */}
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[2fr_1fr] lg:gap-x-[50px] xl:flex xl:justify-between xl:gap-x-[99px]">
           <div className="flex">

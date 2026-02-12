@@ -6,7 +6,7 @@ import BlogCard from '../../BlogCard';
 export default function AuthorsCorner() {
   return (
     <section className="py-10 lg:py-20">
-      <div className="wrapper px-5">
+      <div className="mx-auto w-full max-w-[1512px] px-5 md:px-[100px]">
         <div className="mb-12 text-center">
           <h2 className="mb-5 text-4xl font-semibold lg:text-5xl">
             The Author&apos;s Corner

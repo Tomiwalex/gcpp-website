@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 export default function Cta() {
   return (
-    <section className="bg-gray px-5 py-10 md:px-[50px] lg:py-20">
-      <div className="bg-background-gradient mx-auto w-full max-w-[1288px] lg:py-11">
+    <section className="bg-gray px-5 py-10 md:px-[100px] lg:py-20">
+      <div className="bg-background-gradient mx-auto w-full max-w-[1512px] lg:py-11">
         <div className="z-1 mx-auto grid max-w-[1086px] grid-cols-1 items-center rounded lg:grid-cols-2 lg:gap-8">
           {/*  */}
           <div className="space-y-6 p-5 max-lg:order-2 lg:max-w-[520px] lg:p-0">

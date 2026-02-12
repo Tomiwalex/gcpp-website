@@ -83,11 +83,10 @@ const Header = () => {
             {navList.map((link, index) => (
               <Link
                 href={link.path}
-                className={`cursor-pointer ${
-                  pathname === link.path
-                    ? 'font-semibold text-[#EB9202]'
-                    : 'font-normal text-white'
-                } relative text-sm after:absolute after:bottom-[-10px] after:left-[50%] after:h-[6px] after:w-[6px] after:rounded-full after:bg-[#EB9202] after:opacity-0 after:transition-all after:duration-300 after:ease-in-out hover:after:opacity-100`}
+                className={`cursor-pointer ${pathname === link.path
+                  ? 'font-semibold text-[#EB9202]'
+                  : 'font-normal text-white'
+                  } relative text-sm after:absolute after:bottom-[-10px] after:left-[50%] after:h-[6px] after:w-[6px] after:rounded-full after:bg-[#EB9202] after:opacity-0 after:transition-all after:duration-300 after:ease-in-out hover:after:opacity-100`}
                 key={index}
               >
                 {link.name}
@@ -139,11 +138,10 @@ const Header = () => {
                   {navList.map((link, index) => (
                     <Link
                       href={link.path}
-                      className={`cursor-pointer text-base ${
-                        location.pathname === link.path
-                          ? 'font-semibold text-[#EB9202]'
-                          : 'font-medium text-white'
-                      } relative`}
+                      className={`cursor-pointer text-base ${location.pathname === link.path
+                        ? 'font-semibold text-[#EB9202]'
+                        : 'font-medium text-white'
+                        } relative`}
                       key={index}
                     >
                       {link.name}

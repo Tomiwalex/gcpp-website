@@ -61,13 +61,13 @@ const PublishingProcess = () => {
   ];
 
   return (
-    <section className="p-5 py-14 md:px-[50px] lg:py-24">
+    <section className="p-5 py-14 md:px-[100px] lg:py-24">
       <div>
         <h2 className="mb-8 text-center text-3xl font-semibold text-[#14120F] lg:mb-12 lg:text-5xl">
           Our Publishing Process
         </h2>
 
-        <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 gap-7 gap-y-1 md:grid-cols-2 lg:gap-10 lg:pt-10">
+        <div className="relative mx-auto grid max-w-[1512px] grid-cols-1 gap-7 gap-y-1 md:grid-cols-2 lg:gap-10 lg:pt-10">
           <div className="grid grid-cols-1 gap-y-2">
             {steps.slice(0, 4).map((step, i) => (
               <div

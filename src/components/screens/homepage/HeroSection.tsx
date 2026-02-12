@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="relative flex min-h-[calc(100dvh-100px)] items-center object-cover p-5 py-24 md:px-[50px]">
-      <div className="mx-auto w-full max-w-[1288px]">
+    <section className="relative flex min-h-[calc(100dvh-100px)] items-center object-cover p-5 py-24 md:px-[100px]">
+      <div className="mx-auto w-full max-w-[1512px]">
         <h1 className="w-full max-w-[591px] text-[2.5rem] leading-[40px] font-semibold text-white lg:text-[3.5rem] lg:leading-[65px] lg:font-medium">
           Your Story, Our Passion for Publishing
         </h1>

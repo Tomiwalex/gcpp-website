@@ -9,7 +9,7 @@ const SubmitManuscript = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
       }}
-      className="flex min-h-[calc(100dvh-100px)] items-center object-cover p-5 py-24 md:px-[50px]"
+      className="flex min-h-[calc(100dvh-100px)] items-center object-cover p-5 py-24 md:px-[100px]"
     >
       <div className="mx-auto w-full max-w-[947px] text-center">
         <h1 className="text-3xl leading-[1.3] font-semibold text-white lg:text-[3.5rem] lg:leading-[65px] lg:font-medium">

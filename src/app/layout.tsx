@@ -9,6 +9,7 @@ const manropeSans = Manrope({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
+  variable: '--font-manrope',
 });
 
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/public/images/gcpp_logo.png" sizes="any" />
       </Head>
-      <body className={`${manropeSans.className} antialiased`}>
+      <body className={`${manropeSans.variable} ${manropeSans.className} antialiased`}>
         <Header />
         {children}
         <Footer />

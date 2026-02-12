@@ -9,8 +9,8 @@ export default function WhyPublishWithUs() {
   const [reason, setReason] = useState(reasons[0]);
 
   return (
-    <section className="p-5 py-10 md:px-12 lg:py-24">
-      <div className="mx-auto w-full max-w-[1284px]">
+    <section className="p-5 py-10 md:px-[100px] lg:py-24">
+      <div className="mx-auto w-full max-w-[1512px]">
         <h2 className="mb-10 text-center text-3xl font-semibold text-[#14120F] lg:mb-12 lg:text-5xl">
           Why Publish With Us?
         </h2>

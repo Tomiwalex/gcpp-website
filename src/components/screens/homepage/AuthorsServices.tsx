@@ -5,8 +5,8 @@ import { services } from '@/components/data/services';
 
 export default function AuthorsServices() {
   return (
-    <section className="bg-[#F9F9F9] p-5 py-14 md:px-12 lg:py-24">
-      <div className="mx-auto w-full max-w-[1284px]">
+    <section className="bg-[#F9F9F9] p-5 py-14 md:px-[100px] lg:py-24">
+      <div className="mx-auto w-full max-w-[1512px]">
         <h2 className="mb-5 text-center text-4xl font-semibold text-[#14120F] lg:mb-6 lg:text-[40px]">
           Services for Authors
         </h2>

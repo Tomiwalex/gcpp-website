@@ -1,0 +1,3279 @@
+[
+  {
+    "id": "2120:8984",
+    "name": "Frame 2608792",
+    "type": "FRAME",
+    "visible": true,
+    "blendMode": "PASS_THROUGH",
+    "opacity": 1,
+    "width": 962,
+    "height": 892.8275146484375,
+    "x": 0,
+    "y": 380,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "layoutAlign": "INHERIT",
+    "layoutGrow": 0,
+    "layoutPositioning": "AUTO",
+    "autoLayout": {
+      "mode": "HORIZONTAL",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 12,
+      "itemReverseZIndex": false,
+      "strokesIncludedInLayout": false
+    },
+    "fills": [],
+    "strokes": [],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "strokeCap": "NONE",
+    "strokeJoin": "MITER",
+    "dashPattern": [],
+    "effects": [],
+    "cornerRadius": 0,
+    "children": [
+      {
+        "id": "2120:8985",
+        "name": "Frame 2608948",
+        "type": "FRAME",
+        "visible": true,
+        "blendMode": "PASS_THROUGH",
+        "opacity": 1,
+        "width": 856,
+        "height": 892.8275146484375,
+        "x": 53,
+        "y": 0,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "layoutAlign": "INHERIT",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "autoLayout": {
+          "mode": "HORIZONTAL",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "primaryAxisSizingMode": "FIXED",
+          "counterAxisSizingMode": "AUTO",
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "gap": 28,
+          "itemReverseZIndex": false,
+          "strokesIncludedInLayout": false
+        },
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "strokeCap": "NONE",
+        "strokeJoin": "MITER",
+        "dashPattern": [],
+        "effects": [],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "id": "2120:8986",
+            "name": "Frame 2608819",
+            "type": "FRAME",
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "opacity": 1,
+            "width": 414,
+            "height": 300.2758483886719,
+            "x": 0,
+            "y": 0,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutPositioning": "AUTO",
+            "autoLayout": {
+              "mode": "VERTICAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "padding": {
+                "top": 24,
+                "right": 16,
+                "bottom": 24,
+                "left": 16
+              },
+              "gap": 56,
+              "itemReverseZIndex": false,
+              "strokesIncludedInLayout": false
+            },
+            "fills": [
+              {
+                "type": "solid",
+                "color": "#ffffff",
+                "opacity": 1,
+                "hex": "#ffffffff"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "children": [
+              {
+                "id": "2120:8987",
+                "name": "Frame 2608818",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 382,
+                "height": 168,
+                "x": 16,
+                "y": 24,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 20,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "2120:8988",
+                    "name": "\"The Good Hawk\" is unlike any fantasy book I’ve read before. Agatha is such a unique and courageous character, and her journey is both inspiring and heart-pounding. I loved the Scottish setting—it felt so wild and magical. The story was unpredictable, emotional, and left me wanting more. Highly recommend!",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 382,
+                    "height": 168,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "\"The Good Hawk\" is unlike any fantasy book I’ve read before. Agatha is such a unique and courageous character, and her journey is both inspiring and heart-pounding. I loved the Scottish setting—it felt so wild and magical. The story was unpredictable, emotional, and left me wanting more. Highly recommend!",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "Regular",
+                      "fontSize": 16,
+                      "lineHeight": {
+                        "unit": "PERCENT",
+                        "value": 150.73810815811157
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2120:8989",
+                "name": "Stars x2",
+                "type": "INSTANCE",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 164,
+                "height": 28.275861740112305,
+                "x": 16,
+                "y": 248,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 5.655172348022461,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0.7068965435028076,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "I2120:8989;103:793",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8989;103:793;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8989;103:794",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 33.931034088134766,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8989;103:794;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8989;103:795",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 67.86206817626953,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8989;103:795;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8989;103:796",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 101.79310607910156,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8989;103:796;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8989;103:797",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 135.72413635253906,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8989;103:797;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2120:8990",
+            "name": "Frame 2608823",
+            "type": "FRAME",
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "opacity": 1,
+            "width": 414,
+            "height": 276.2758483886719,
+            "x": 442,
+            "y": 0,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutPositioning": "AUTO",
+            "autoLayout": {
+              "mode": "VERTICAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "padding": {
+                "top": 24,
+                "right": 16,
+                "bottom": 24,
+                "left": 16
+              },
+              "gap": 56,
+              "itemReverseZIndex": false,
+              "strokesIncludedInLayout": false
+            },
+            "fills": [
+              {
+                "type": "solid",
+                "color": "#ffffff",
+                "opacity": 1,
+                "hex": "#ffffffff"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "children": [
+              {
+                "id": "2120:8991",
+                "name": "Frame 2608818",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 382,
+                "height": 144,
+                "x": 16,
+                "y": 24,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 20,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "2120:8992",
+                    "name": "I really enjoyed this book! The relationship between Agatha and Jaime is beautifully written, and the representation of Agatha as a protagonist with Down syndrome is handled so well. Some parts of the story felt rushed, but the world-building and action made up for it. Can’t wait to read the sequel!",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 382,
+                    "height": 144,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "I really enjoyed this book! The relationship between Agatha and Jaime is beautifully written, and the representation of Agatha as a protagonist with Down syndrome is handled so well. Some parts of the story felt rushed, but the world-building and action made up for it. Can’t wait to read the sequel!",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "Regular",
+                      "fontSize": 16,
+                      "lineHeight": {
+                        "unit": "PERCENT",
+                        "value": 150.73810815811157
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2120:8993",
+                "name": "Stars x2",
+                "type": "INSTANCE",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 164,
+                "height": 28.275861740112305,
+                "x": 16,
+                "y": 224,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 5.655172348022461,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0.7068965435028076,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "I2120:8993;103:793",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8993;103:793;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8993;103:794",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 33.931034088134766,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8993;103:794;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8993;103:795",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 67.86206817626953,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8993;103:795;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8993;103:796",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 101.79310607910156,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8993;103:796;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8993;103:797",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 135.72413635253906,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8993;103:797;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2120:8994",
+            "name": "Frame 2608824",
+            "type": "FRAME",
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "opacity": 1,
+            "width": 414,
+            "height": 276.2758483886719,
+            "x": 0,
+            "y": 320.2758483886719,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutPositioning": "AUTO",
+            "autoLayout": {
+              "mode": "VERTICAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "padding": {
+                "top": 24,
+                "right": 16,
+                "bottom": 24,
+                "left": 16
+              },
+              "gap": 56,
+              "itemReverseZIndex": false,
+              "strokesIncludedInLayout": false
+            },
+            "fills": [
+              {
+                "type": "solid",
+                "color": "#ffffff",
+                "opacity": 1,
+                "hex": "#ffffffff"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "children": [
+              {
+                "id": "2120:8995",
+                "name": "Frame 2608818",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 382,
+                "height": 144,
+                "x": 16,
+                "y": 24,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 20,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "2120:8996",
+                    "name": "I had mixed feelings about this book. I loved Agatha’s perspective—she’s a fantastic and refreshing character. However, the plot didn’t grip me as much as I hoped, and some of the pacing felt uneven. It’s still worth reading for the representation and unique setting.",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 382,
+                    "height": 144,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "I had mixed feelings about this book. I loved Agatha’s perspective—she’s a fantastic and refreshing character. However, the plot didn’t grip me as much as I hoped, and some of the pacing felt uneven. It’s still worth reading for the representation and unique setting.",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "Regular",
+                      "fontSize": 16,
+                      "lineHeight": {
+                        "unit": "PERCENT",
+                        "value": 150.73810815811157
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2120:8997",
+                "name": "Stars x2",
+                "type": "INSTANCE",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 164,
+                "height": 28.275861740112305,
+                "x": 16,
+                "y": 224,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 5.655172348022461,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0.7068965435028076,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "I2120:8997;103:793",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8997;103:793;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8997;103:794",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 33.931034088134766,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8997;103:794;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8997;103:795",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 67.86206817626953,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8997;103:795;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8997;103:796",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 101.79310607910156,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8997;103:796;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:8997;103:797",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 135.72413635253906,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:8997;103:797;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2120:8998",
+            "name": "Frame 2608826",
+            "type": "FRAME",
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "opacity": 1,
+            "width": 414,
+            "height": 252.27586364746094,
+            "x": 442,
+            "y": 320.2758483886719,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutPositioning": "AUTO",
+            "autoLayout": {
+              "mode": "VERTICAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "padding": {
+                "top": 24,
+                "right": 16,
+                "bottom": 24,
+                "left": 16
+              },
+              "gap": 56,
+              "itemReverseZIndex": false,
+              "strokesIncludedInLayout": false
+            },
+            "fills": [
+              {
+                "type": "solid",
+                "color": "#ffffff",
+                "opacity": 1,
+                "hex": "#ffffffff"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "children": [
+              {
+                "id": "2120:8999",
+                "name": "Frame 2608818",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 382,
+                "height": 120,
+                "x": 16,
+                "y": 24,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 20,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "2120:9000",
+                    "name": "What an adventure! I couldn’t put this book down. Agatha is one of the most memorable characters I’ve ever read about, and the blend of ancient Scotland with fantasy elements was so well done. Joseph Elliott is an author to watch!",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 382,
+                    "height": 120,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "What an adventure! I couldn’t put this book down. Agatha is one of the most memorable characters I’ve ever read about, and the blend of ancient Scotland with fantasy elements was so well done. Joseph Elliott is an author to watch!",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "Regular",
+                      "fontSize": 16,
+                      "lineHeight": {
+                        "unit": "PERCENT",
+                        "value": 150.73810815811157
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2120:9001",
+                "name": "Stars x2",
+                "type": "INSTANCE",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 164,
+                "height": 28.275861740112305,
+                "x": 16,
+                "y": 200,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 5.655172348022461,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0.7068965435028076,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "I2120:9001;103:793",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9001;103:793;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9001;103:794",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 33.931034088134766,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9001;103:794;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9001;103:795",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 67.86206817626953,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9001;103:795;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9001;103:796",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 101.79310607910156,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9001;103:796;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9001;103:797",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 135.72413635253906,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9001;103:797;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2120:9002",
+            "name": "Frame 2608825",
+            "type": "FRAME",
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "opacity": 1,
+            "width": 414,
+            "height": 276.2758483886719,
+            "x": 0,
+            "y": 616.5516967773438,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutPositioning": "AUTO",
+            "autoLayout": {
+              "mode": "VERTICAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "padding": {
+                "top": 24,
+                "right": 16,
+                "bottom": 24,
+                "left": 16
+              },
+              "gap": 56,
+              "itemReverseZIndex": false,
+              "strokesIncludedInLayout": false
+            },
+            "fills": [
+              {
+                "type": "solid",
+                "color": "#ffffff",
+                "opacity": 1,
+                "hex": "#ffffffff"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "children": [
+              {
+                "id": "2120:9003",
+                "name": "Frame 2608818",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 382,
+                "height": 144,
+                "x": 16,
+                "y": 24,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 20,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "2120:9004",
+                    "name": "The Good Hawk is a thrilling and emotional ride. Agatha and Jaime’s friendship is the heart of the story, and I appreciated how their differences complemented each other. There were moments that felt a bit too intense for younger readers, but overall, it’s an amazing book!",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 382,
+                    "height": 144,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "The Good Hawk is a thrilling and emotional ride. Agatha and Jaime’s friendship is the heart of the story, and I appreciated how their differences complemented each other. There were moments that felt a bit too intense for younger readers, but overall, it’s an amazing book!",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "Regular",
+                      "fontSize": 16,
+                      "lineHeight": {
+                        "unit": "PERCENT",
+                        "value": 150.73810815811157
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2120:9005",
+                "name": "Stars x2",
+                "type": "INSTANCE",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 164,
+                "height": 28.275861740112305,
+                "x": 16,
+                "y": 224,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "gap": 5.655172348022461,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0.7068965435028076,
+                "strokeAlign": "INSIDE",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 0,
+                "children": [
+                  {
+                    "id": "I2120:9005;103:793",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9005;103:793;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9005;103:794",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 33.931034088134766,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9005;103:794;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9005;103:795",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 67.86206817626953,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9005;103:795;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9005;103:796",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 101.79310607910156,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9005;103:796;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I2120:9005;103:797",
+                    "name": "Star x2",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28.275861740112305,
+                    "height": 28.275861740112305,
+                    "x": 135.72413635253906,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "primaryAxisSizingMode": "FIXED",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 2.120689630508423,
+                        "right": 2.120689630508423,
+                        "bottom": 2.120689630508423,
+                        "left": 2.120689630508423
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#219653",
+                        "opacity": 1,
+                        "hex": "#219653ff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0.7068965435028076,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2120:9005;103:797;102:1490",
+                        "name": "Shape",
+                        "type": "VECTOR",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 19.793102264404297,
+                        "height": 19.793102264404297,
+                        "x": 4.241379261016846,
+                        "y": 4.241379261016846,
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 0.7068965435028076,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

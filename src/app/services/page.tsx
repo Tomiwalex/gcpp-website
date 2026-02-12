@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 const page = () => {
   return (
-    <div className="bg-[#F9F9F9] px-5 py-16 md:px-[50px]">
-      <div className="">
+    <div className="bg-[#F9F9F9] px-5 py-16 md:px-[100px]">
+      <div className="mx-auto max-w-[1512px]">
         <div className="text-[#14120F]">
           <h1 className="mb-2 text-3xl font-semibold lg:text-4xl">
             Services for Authors

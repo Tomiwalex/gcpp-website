@@ -8,7 +8,7 @@ export default function Review() {
   const [currentSlide, setCurrentSlide] = useState<number>(1);
 
   return (
-    <section className="py-10 pb-16 lg:py-20 lg:pb-28">
+    <section className="py-10 pb-16 md:px-[100px] lg:py-20 lg:pb-28">
       <div className="">
         <div className="mx-auto mb-8 px-5 text-center font-semibold text-[#14120F] lg:mb-12">
           <h2 className="mb-5 text-3xl md:text-4xl lg:text-5xl">
