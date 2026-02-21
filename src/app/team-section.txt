@@ -1,0 +1,1334 @@
+[
+  {
+    "id": "2223:2848",
+    "name": "Frame 2608763",
+    "type": "FRAME",
+    "visible": true,
+    "blendMode": "PASS_THROUGH",
+    "opacity": 1,
+    "width": 1512,
+    "height": 879,
+    "x": 0,
+    "y": 707,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "layoutAlign": "STRETCH",
+    "layoutGrow": 0,
+    "layoutPositioning": "AUTO",
+    "autoLayout": {
+      "mode": "VERTICAL",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "padding": {
+        "top": 24,
+        "right": 112,
+        "bottom": 24,
+        "left": 112
+      },
+      "gap": 10,
+      "itemReverseZIndex": false,
+      "strokesIncludedInLayout": false
+    },
+    "fills": [
+      {
+        "type": "solid",
+        "color": "#f9f9f9",
+        "opacity": 1,
+        "hex": "#f9f9f9ff"
+      }
+    ],
+    "strokes": [],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "strokeCap": "NONE",
+    "strokeJoin": "MITER",
+    "dashPattern": [],
+    "effects": [],
+    "cornerRadius": 0,
+    "children": [
+      {
+        "id": "2223:2849",
+        "name": "Frame 2608790",
+        "type": "FRAME",
+        "visible": true,
+        "blendMode": "PASS_THROUGH",
+        "opacity": 1,
+        "width": 1252,
+        "height": 831,
+        "x": 130,
+        "y": 24,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "layoutAlign": "INHERIT",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "autoLayout": {
+          "mode": "HORIZONTAL",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "gap": 12,
+          "itemReverseZIndex": false,
+          "strokesIncludedInLayout": false
+        },
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "strokeCap": "NONE",
+        "strokeJoin": "MITER",
+        "dashPattern": [],
+        "effects": [],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "id": "2223:2850",
+            "name": "Frame 2608791",
+            "type": "FRAME",
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "opacity": 1,
+            "width": 1252,
+            "height": 831,
+            "x": 0,
+            "y": 0,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutPositioning": "AUTO",
+            "autoLayout": {
+              "mode": "VERTICAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "MIN",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "padding": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              },
+              "gap": 12,
+              "itemReverseZIndex": false,
+              "strokesIncludedInLayout": false
+            },
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "children": [
+              {
+                "id": "2223:2851",
+                "name": "Frame 720",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 1252,
+                "height": 80,
+                "x": 0,
+                "y": 0,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "NONE",
+                  "primaryAxisAlignItems": "MAX",
+                  "counterAxisAlignItems": "CENTER",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "FIXED",
+                  "padding": {
+                    "top": 7.6875,
+                    "right": 10.25,
+                    "bottom": 7.6875,
+                    "left": 10.25
+                  },
+                  "gap": 6.40625,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [
+                  {
+                    "type": "solid",
+                    "color": "#ffffff",
+                    "opacity": 1,
+                    "hex": "#ffffffff"
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "solid",
+                    "color": "#eaeaea",
+                    "opacity": 1,
+                    "hex": "#eaeaeaff"
+                  }
+                ],
+                "strokeWeight": 1,
+                "strokeAlign": "CENTER",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 4,
+                "children": [
+                  {
+                    "id": "2223:2852",
+                    "name": "What We Offer",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 160,
+                    "height": 48,
+                    "x": 62,
+                    "y": 16,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "What We Offer",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "SemiBold",
+                      "fontSize": 24,
+                      "lineHeight": {
+                        "unit": "PIXELS",
+                        "value": 48
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": -2
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "CENTER",
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  },
+                  {
+                    "id": "2223:2853",
+                    "name": "arrow-down-01-round",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28,
+                    "height": 28,
+                    "x": 1188,
+                    "y": 26,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "NONE",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "MIN",
+                      "primaryAxisSizingMode": "AUTO",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2223:2853;2:21579",
+                        "name": "elements",
+                        "type": "GROUP",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 14,
+                        "height": 7.000001430511475,
+                        "x": 6.999999523162842,
+                        "y": 10.499999046325684,
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "effects": [],
+                        "children": [
+                          {
+                            "id": "I2223:2853;2:21580",
+                            "name": "Vector",
+                            "type": "VECTOR",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 7.000000953674316,
+                            "height": 14,
+                            "x": 20.999999523162842,
+                            "y": 17.5,
+                            "constraints": {
+                              "horizontal": "SCALE",
+                              "vertical": "SCALE"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [],
+                            "strokes": [
+                              {
+                                "type": "solid",
+                                "color": "#14120f",
+                                "opacity": 1,
+                                "hex": "#14120fff"
+                              }
+                            ],
+                            "strokeWeight": 1.5,
+                            "strokeAlign": "CENTER",
+                            "strokeCap": "ROUND",
+                            "strokeJoin": "ROUND",
+                            "dashPattern": [],
+                            "effects": [],
+                            "cornerRadius": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2223:2854",
+                "name": "Frame 2608763",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 1252,
+                "height": 463,
+                "x": 0,
+                "y": 92,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "NONE",
+                  "primaryAxisAlignItems": "MAX",
+                  "counterAxisAlignItems": "CENTER",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "FIXED",
+                  "padding": {
+                    "top": 7.6875,
+                    "right": 10.25,
+                    "bottom": 7.6875,
+                    "left": 10.25
+                  },
+                  "gap": 6.40625,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [
+                  {
+                    "type": "solid",
+                    "color": "#f9f9f9",
+                    "opacity": 1,
+                    "hex": "#f9f9f9ff"
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "solid",
+                    "color": "#eaeaea",
+                    "opacity": 1,
+                    "hex": "#eaeaeaff"
+                  }
+                ],
+                "strokeWeight": 1,
+                "strokeAlign": "CENTER",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 4,
+                "children": [
+                  {
+                    "id": "2223:2855",
+                    "name": "Frame 2608793",
+                    "type": "FRAME",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 962,
+                    "height": 373,
+                    "x": 145,
+                    "y": 44.5,
+                    "constraints": {
+                      "horizontal": "CENTER",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "HORIZONTAL",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "MIN",
+                      "primaryAxisSizingMode": "AUTO",
+                      "counterAxisSizingMode": "AUTO",
+                      "padding": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "gap": 46,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "2223:2856",
+                        "name": "Frame 2608794",
+                        "type": "FRAME",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 406,
+                        "height": 256,
+                        "x": 0,
+                        "y": 0,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "autoLayout": {
+                          "mode": "VERTICAL",
+                          "primaryAxisAlignItems": "MIN",
+                          "counterAxisAlignItems": "MIN",
+                          "primaryAxisSizingMode": "AUTO",
+                          "counterAxisSizingMode": "AUTO",
+                          "padding": {
+                            "top": 0,
+                            "right": 0,
+                            "bottom": 0,
+                            "left": 0
+                          },
+                          "gap": 8,
+                          "itemReverseZIndex": false,
+                          "strokesIncludedInLayout": false
+                        },
+                        "fills": [],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 0,
+                        "children": [
+                          {
+                            "id": "2223:2857",
+                            "name": "What we offer",
+                            "type": "TEXT",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 106,
+                            "height": 24,
+                            "x": 0,
+                            "y": 0,
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [
+                              {
+                                "type": "solid",
+                                "color": "#8a8884",
+                                "opacity": 1,
+                                "hex": "#8a8884ff"
+                              }
+                            ],
+                            "strokes": [],
+                            "strokeWeight": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeCap": "NONE",
+                            "strokeJoin": "MITER",
+                            "dashPattern": [],
+                            "effects": [],
+                            "text": {
+                              "content": "What we offer",
+                              "fontFamily": "Manrope",
+                              "fontWeight": "SemiBold",
+                              "fontSize": 16,
+                              "lineHeight": {
+                                "unit": "PERCENT",
+                                "value": 150.73810815811157
+                              },
+                              "letterSpacing": {
+                                "unit": "PERCENT",
+                                "value": 0
+                              },
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "textDecoration": "NONE"
+                            }
+                          },
+                          {
+                            "id": "2223:2858",
+                            "name": "Golden Child Promotions Publishing provides a full spectrum of publication services, covering everything from proofreading and editing to formatting, book cover design, printing, and distribution. Our additional offerings include barcode generation, ISBN acquisition, and author website creation. With expertise in self-publishing platforms like Amazon Kindle, we ensure your work reaches its full potential.",
+                            "type": "TEXT",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 406,
+                            "height": 224,
+                            "x": 0,
+                            "y": 32,
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [
+                              {
+                                "type": "solid",
+                                "color": "#14120f",
+                                "opacity": 1,
+                                "hex": "#14120fff"
+                              }
+                            ],
+                            "strokes": [],
+                            "strokeWeight": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeCap": "NONE",
+                            "strokeJoin": "MITER",
+                            "dashPattern": [],
+                            "effects": [],
+                            "text": {
+                              "content": "Golden Child Promotions Publishing provides a full spectrum of publication services, covering everything from proofreading and editing to formatting, book cover design, printing, and distribution. Our additional offerings include barcode generation, ISBN acquisition, and author website creation. With expertise in self-publishing platforms like Amazon Kindle, we ensure your work reaches its full potential.",
+                              "fontFamily": "Manrope",
+                              "fontWeight": "Regular",
+                              "fontSize": 16,
+                              "lineHeight": {
+                                "unit": "PIXELS",
+                                "value": 28
+                              },
+                              "letterSpacing": {
+                                "unit": "PERCENT",
+                                "value": 0
+                              },
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "textAutoResize": "HEIGHT",
+                              "textDecoration": "NONE"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2223:2859",
+                        "name": "Frame 2608792",
+                        "type": "FRAME",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 510,
+                        "height": 373,
+                        "x": 452,
+                        "y": 0,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "autoLayout": {
+                          "mode": "NONE",
+                          "primaryAxisAlignItems": "MIN",
+                          "counterAxisAlignItems": "MIN",
+                          "primaryAxisSizingMode": "AUTO",
+                          "counterAxisSizingMode": "FIXED",
+                          "padding": {
+                            "top": 0,
+                            "right": 0,
+                            "bottom": 0,
+                            "left": 0
+                          },
+                          "gap": 0,
+                          "itemReverseZIndex": false,
+                          "strokesIncludedInLayout": false
+                        },
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "hex": "#ffffffff"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeCap": "NONE",
+                        "strokeJoin": "MITER",
+                        "dashPattern": [],
+                        "effects": [],
+                        "cornerRadius": 4,
+                        "children": [
+                          {
+                            "id": "2223:2860",
+                            "name": "pexels-divinetechygirl-1181408 1",
+                            "type": "RECTANGLE",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 716,
+                            "height": 478,
+                            "x": -99,
+                            "y": -94,
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [
+                              {
+                                "type": "image",
+                                "scaleMode": "FILL",
+                                "opacity": 1
+                              }
+                            ],
+                            "strokes": [],
+                            "strokeWeight": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeCap": "NONE",
+                            "strokeJoin": "MITER",
+                            "dashPattern": [],
+                            "effects": [],
+                            "cornerRadius": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2223:2861",
+                "name": "Frame 2608776",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 1252,
+                "height": 80,
+                "x": 0,
+                "y": 567,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "NONE",
+                  "primaryAxisAlignItems": "MAX",
+                  "counterAxisAlignItems": "CENTER",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "FIXED",
+                  "padding": {
+                    "top": 7.6875,
+                    "right": 10.25,
+                    "bottom": 7.6875,
+                    "left": 10.25
+                  },
+                  "gap": 6.40625,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [
+                  {
+                    "type": "solid",
+                    "color": "#ffffff",
+                    "opacity": 1,
+                    "hex": "#ffffffff"
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "solid",
+                    "color": "#eaeaea",
+                    "opacity": 1,
+                    "hex": "#eaeaeaff"
+                  }
+                ],
+                "strokeWeight": 1,
+                "strokeAlign": "CENTER",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 4,
+                "children": [
+                  {
+                    "id": "2223:2862",
+                    "name": "Our Mission",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 131,
+                    "height": 48,
+                    "x": 62,
+                    "y": 16,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "Our Mission",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "SemiBold",
+                      "fontSize": 24,
+                      "lineHeight": {
+                        "unit": "PIXELS",
+                        "value": 48
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": -2
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "CENTER",
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  },
+                  {
+                    "id": "2223:2863",
+                    "name": "arrow-down-01-round",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28,
+                    "height": 28,
+                    "x": 1188,
+                    "y": 26,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "NONE",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "MIN",
+                      "primaryAxisSizingMode": "AUTO",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2223:2863;2:21579",
+                        "name": "elements",
+                        "type": "GROUP",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 14,
+                        "height": 7.000001430511475,
+                        "x": 6.999999523162842,
+                        "y": 10.499999046325684,
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "effects": [],
+                        "children": [
+                          {
+                            "id": "I2223:2863;2:21580",
+                            "name": "Vector",
+                            "type": "VECTOR",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 7.000000953674316,
+                            "height": 14,
+                            "x": 20.999999523162842,
+                            "y": 17.5,
+                            "constraints": {
+                              "horizontal": "SCALE",
+                              "vertical": "SCALE"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [],
+                            "strokes": [
+                              {
+                                "type": "solid",
+                                "color": "#14120f",
+                                "opacity": 1,
+                                "hex": "#14120fff"
+                              }
+                            ],
+                            "strokeWeight": 1.5,
+                            "strokeAlign": "CENTER",
+                            "strokeCap": "ROUND",
+                            "strokeJoin": "ROUND",
+                            "dashPattern": [],
+                            "effects": [],
+                            "cornerRadius": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2223:2864",
+                "name": "Frame 2608777",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 1252,
+                "height": 80,
+                "x": 0,
+                "y": 659,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "NONE",
+                  "primaryAxisAlignItems": "MAX",
+                  "counterAxisAlignItems": "CENTER",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "FIXED",
+                  "padding": {
+                    "top": 7.6875,
+                    "right": 10.25,
+                    "bottom": 7.6875,
+                    "left": 10.25
+                  },
+                  "gap": 6.40625,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [
+                  {
+                    "type": "solid",
+                    "color": "#ffffff",
+                    "opacity": 1,
+                    "hex": "#ffffffff"
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "solid",
+                    "color": "#eaeaea",
+                    "opacity": 1,
+                    "hex": "#eaeaeaff"
+                  }
+                ],
+                "strokeWeight": 1,
+                "strokeAlign": "CENTER",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 4,
+                "children": [
+                  {
+                    "id": "2223:2865",
+                    "name": "The GCPP Difference",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 229,
+                    "height": 48,
+                    "x": 62,
+                    "y": 16,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "The GCPP Difference",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "SemiBold",
+                      "fontSize": 24,
+                      "lineHeight": {
+                        "unit": "PIXELS",
+                        "value": 48
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": -2
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "CENTER",
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  },
+                  {
+                    "id": "2223:2866",
+                    "name": "arrow-down-01-round",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28,
+                    "height": 28,
+                    "x": 1188,
+                    "y": 26,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "NONE",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "MIN",
+                      "primaryAxisSizingMode": "AUTO",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2223:2866;2:21579",
+                        "name": "elements",
+                        "type": "GROUP",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 14,
+                        "height": 7.000001430511475,
+                        "x": 6.999999523162842,
+                        "y": 10.499999046325684,
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "effects": [],
+                        "children": [
+                          {
+                            "id": "I2223:2866;2:21580",
+                            "name": "Vector",
+                            "type": "VECTOR",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 7.000000953674316,
+                            "height": 14,
+                            "x": 20.999999523162842,
+                            "y": 17.5,
+                            "constraints": {
+                              "horizontal": "SCALE",
+                              "vertical": "SCALE"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [],
+                            "strokes": [
+                              {
+                                "type": "solid",
+                                "color": "#14120f",
+                                "opacity": 1,
+                                "hex": "#14120fff"
+                              }
+                            ],
+                            "strokeWeight": 1.5,
+                            "strokeAlign": "CENTER",
+                            "strokeCap": "ROUND",
+                            "strokeJoin": "ROUND",
+                            "dashPattern": [],
+                            "effects": [],
+                            "cornerRadius": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2223:2867",
+                "name": "Frame 2608775",
+                "type": "FRAME",
+                "visible": true,
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "width": 1252,
+                "height": 80,
+                "x": 0,
+                "y": 751,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutPositioning": "AUTO",
+                "autoLayout": {
+                  "mode": "NONE",
+                  "primaryAxisAlignItems": "MAX",
+                  "counterAxisAlignItems": "CENTER",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "FIXED",
+                  "padding": {
+                    "top": 7.6875,
+                    "right": 10.25,
+                    "bottom": 7.6875,
+                    "left": 10.25
+                  },
+                  "gap": 6.40625,
+                  "itemReverseZIndex": false,
+                  "strokesIncludedInLayout": false
+                },
+                "fills": [
+                  {
+                    "type": "solid",
+                    "color": "#ffffff",
+                    "opacity": 1,
+                    "hex": "#ffffffff"
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "solid",
+                    "color": "#eaeaea",
+                    "opacity": 1,
+                    "hex": "#eaeaeaff"
+                  }
+                ],
+                "strokeWeight": 1,
+                "strokeAlign": "CENTER",
+                "strokeCap": "NONE",
+                "strokeJoin": "MITER",
+                "dashPattern": [],
+                "effects": [],
+                "cornerRadius": 4,
+                "children": [
+                  {
+                    "id": "2223:2868",
+                    "name": "Your Story, Our Commitment",
+                    "type": "TEXT",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 313,
+                    "height": 48,
+                    "x": 62,
+                    "y": 16,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "fills": [
+                      {
+                        "type": "solid",
+                        "color": "#14120f",
+                        "opacity": 1,
+                        "hex": "#14120fff"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "text": {
+                      "content": "Your Story, Our Commitment",
+                      "fontFamily": "Manrope",
+                      "fontWeight": "SemiBold",
+                      "fontSize": 24,
+                      "lineHeight": {
+                        "unit": "PIXELS",
+                        "value": 48
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": -2
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "CENTER",
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "textDecoration": "NONE"
+                    }
+                  },
+                  {
+                    "id": "2223:2869",
+                    "name": "arrow-down-01-round",
+                    "type": "INSTANCE",
+                    "visible": true,
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "width": 28,
+                    "height": 28,
+                    "x": 1188,
+                    "y": 26,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "CENTER"
+                    },
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutPositioning": "AUTO",
+                    "autoLayout": {
+                      "mode": "NONE",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "MIN",
+                      "primaryAxisSizingMode": "AUTO",
+                      "counterAxisSizingMode": "FIXED",
+                      "padding": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                      },
+                      "gap": 0,
+                      "itemReverseZIndex": false,
+                      "strokesIncludedInLayout": false
+                    },
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeCap": "NONE",
+                    "strokeJoin": "MITER",
+                    "dashPattern": [],
+                    "effects": [],
+                    "cornerRadius": 0,
+                    "children": [
+                      {
+                        "id": "I2223:2869;2:21579",
+                        "name": "elements",
+                        "type": "GROUP",
+                        "visible": true,
+                        "blendMode": "PASS_THROUGH",
+                        "opacity": 1,
+                        "width": 14,
+                        "height": 7.000001430511475,
+                        "x": 6.999999523162842,
+                        "y": 10.499999046325684,
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutPositioning": "AUTO",
+                        "effects": [],
+                        "children": [
+                          {
+                            "id": "I2223:2869;2:21580",
+                            "name": "Vector",
+                            "type": "VECTOR",
+                            "visible": true,
+                            "blendMode": "PASS_THROUGH",
+                            "opacity": 1,
+                            "width": 7.000000953674316,
+                            "height": 14,
+                            "x": 20.999999523162842,
+                            "y": 17.5,
+                            "constraints": {
+                              "horizontal": "SCALE",
+                              "vertical": "SCALE"
+                            },
+                            "layoutAlign": "INHERIT",
+                            "layoutGrow": 0,
+                            "layoutPositioning": "AUTO",
+                            "fills": [],
+                            "strokes": [
+                              {
+                                "type": "solid",
+                                "color": "#14120f",
+                                "opacity": 1,
+                                "hex": "#14120fff"
+                              }
+                            ],
+                            "strokeWeight": 1.5,
+                            "strokeAlign": "CENTER",
+                            "strokeCap": "ROUND",
+                            "strokeJoin": "ROUND",
+                            "dashPattern": [],
+                            "effects": [],
+                            "cornerRadius": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
