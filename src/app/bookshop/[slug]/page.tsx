@@ -17,6 +17,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
+import { useCart } from '@/context/CartContext';
 
 
 export default function BookPage() {
@@ -30,6 +31,16 @@ export default function BookPage() {
 
     const [quantity, setQuantity] = useState(1);
     const [currentPage, setCurrentPage] = useState(1);
+
+    const { addToCart } = useCart();
+    const [isAdded, setIsAdded] = useState(false);
+
+    const handleAddToCart = () => {
+        if (!book) return;
+        addToCart(book, quantity);
+        setIsAdded(true);
+        setTimeout(() => setIsAdded(false), 2000);
+    };
 
     if (!book) {
         return (
@@ -135,8 +146,11 @@ export default function BookPage() {
                             </div>
 
                             {/* Add to Cart - 45% width on mobile */}
-                            <Button className="basis-[45%] lg:flex-1 lg:max-w-[162px] h-[36px] md:h-[48px] text-[14px] md:text-[16px] font-medium leading-none tracking-[-0.02em]">
-                                Add to Cart
+                            <Button
+                                className="basis-[45%] lg:flex-1 lg:max-w-[162px] h-[36px] md:h-[48px] text-[14px] md:text-[16px] font-medium leading-none tracking-[-0.02em]"
+                                onClick={handleAddToCart}
+                            >
+                                {isAdded ? 'Added!' : 'Add to Cart'}
                             </Button>
                         </div>
                     </div>

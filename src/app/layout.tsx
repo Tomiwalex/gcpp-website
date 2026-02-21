@@ -4,6 +4,7 @@ import './globals.css';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
 import Header from '@/components/global/Header';
+import { CartProvider } from '@/context/CartContext';
 
 const manropeSans = Manrope({
   weight: ['300', '400', '500', '600', '700'],
@@ -28,9 +29,11 @@ export default function RootLayout({
         <link rel="icon" href="/public/images/gcpp_logo.png" sizes="any" />
       </Head>
       <body className={`${manropeSans.variable} ${manropeSans.className} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
+        <CartProvider>
+          <Header />
+          {children}
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

@@ -1,34 +1,21 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { books } from '@/data/books';
 import BookCard from '@/components/screens/bookshop/BookCard';
 import { Button } from '@/components/ui/button';
 import Footer from '@/components/Footer';
-
-// Sample cart items (in a real app, this would come from state management)
-const initialCartItems = [
-    { book: books[0], quantity: 3 },
-    { book: books[1], quantity: 5 },
-    { book: books[2], quantity: 2 },
-];
+import { useCart } from '@/context/CartContext';
 
 export default function CartPage() {
-    const [cartItems, setCartItems] = useState(initialCartItems);
+    const { cartItems, updateQuantity, removeItem, subtotal } = useCart();
     const [currentPage, setCurrentPage] = useState(1);
+    const [mounted, setMounted] = useState(false);
 
-    const updateQuantity = (index: number, delta: number) => {
-        setCartItems(prev => prev.map((item, i) =>
-            i === index ? { ...item, quantity: Math.max(1, item.quantity + delta) } : item
-        ));
-    };
-
-    const removeItem = (index: number) => {
-        setCartItems(prev => prev.filter((_, i) => i !== index));
-    };
-
-    const subtotal = cartItems.reduce((sum, item) => sum + (item.book.price * item.quantity), 0);
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     return (
         <>
@@ -39,11 +26,10 @@ export default function CartPage() {
                         Your Cart
                     </h1>
 
-                    {/* Cart Section - 2 Column Layout */}
                     <div className="flex flex-col gap-[16px] lg:flex-row lg:gap-[16px]">
                         {/* Left Column - Cart Items */}
                         <div className="flex flex-1 flex-col gap-[16px] lg:max-w-[965px]">
-                            {cartItems.length === 0 ? (
+                            {(!mounted || cartItems.length === 0) ? (
                                 <div className="flex h-[400px] items-center justify-center bg-white p-[32px]">
                                     <p className="text-center font-[Manrope] text-[16px] text-[#6c604e]">
                                         Your cart is empty
@@ -166,7 +152,7 @@ export default function CartPage() {
                                             Subtotal
                                         </span>
                                         <span className="font-[Manrope] text-[16px] font-semibold text-[#14120F]">
-                                            ${subtotal.toFixed(2)}
+                                            ${mounted ? subtotal.toFixed(2) : '0.00'}
                                         </span>
                                     </div>
                                 </div>

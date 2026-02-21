@@ -6,12 +6,19 @@ import Link from 'next/link';
 import { Button } from '../ui/button';
 import { usePathname } from 'next/navigation';
 import { Icon } from '@iconify/react/dist/iconify.js';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useCart } from '@/context/CartContext';
 
 const Header = () => {
   const pathname = usePathname();
   const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
+  const [mounted, setMounted] = useState(false);
+  const { totalItems } = useCart();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const navList = [
     { path: '/', name: 'Home' },
@@ -59,10 +66,16 @@ const Header = () => {
           </Link>
           |
           <Link
-            href="#"
+            href="/bookshop/cart"
             className="flex items-center gap-1 text-xs transition-all duration-300 ease-in-out hover:text-[#EB9202]"
           >
-            <Icon icon="ph:shopping-cart-thin" /> Cart
+            <Icon icon="ph:shopping-cart-thin" className="text-lg" />
+            Cart
+            {mounted && totalItems > 0 && (
+              <span className="flex h-4 min-w-[16px] items-center justify-center rounded-full bg-[#EB9202] px-1 text-[10px] font-bold text-[#14120F]">
+                {totalItems}
+              </span>
+            )}
           </Link>
           |
           <Link
