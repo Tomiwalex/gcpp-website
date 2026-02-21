@@ -1,0 +1,15 @@
+[
+  "Membership Benefits",
+  "Unlimited Audiobook Library Access",
+  "Enjoy free access to our growing library of audiobooks, including all future releases. Audiobooks typically retail for $6.99 each, but as a member, they’re yours at no extra cost.",
+  "Complimentary First eBook in Any Series",
+  "Enjoy free access to our growing library of audiobooks, including all future releases. Audiobooks typically retail for $6.99 each, but as a member, they’re yours at no extra cost.",
+  "Weekly Workshops and Guest Speaker Events",
+  "Learn from industry leaders about the latest trends, strategies, and tips to grow your brand and skills as an author.",
+  "One-on-One Expert Consultation",
+  "Enjoy free access to our growing library of audiobooks, including all future releases. Audiobooks typically retail for $6.99 each, but as a member, they’re yours at no extra cost.",
+  " Exclusive Online Courses",
+  "Access a curated selection of on-demand courses covering writing techniques, editing, and the self-publishing process.",
+  "Supportive Writer Community",
+  " Connect with a network of like-minded writers to share experiences, collaborate, and find inspiration."
+]
