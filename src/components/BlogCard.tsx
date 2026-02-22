@@ -22,7 +22,7 @@ export default function BlogCard({
   author,
 }: BlogCardProps) {
   return (
-    <div className="overflow-hidden border-gray-200 transition-all duration-300 ease-in-out select-none hover:border-b lg:max-w-[360px]">
+    <div className="overflow-hidden rounded border border-[#EAEAEA] transition-all duration-300 ease-in-out select-none hover:border-[#cccccc] lg:max-w-[360px]">
       <div className="relative h-[214px] w-full overflow-hidden">
         <Image
           src={imageSrc}

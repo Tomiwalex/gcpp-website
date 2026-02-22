@@ -93,7 +93,7 @@ function TestimonialCard({ testimonial, isActive }: TestimonialCardProps) {
         >
             {/* Text Content */}
             <div className="flex flex-1 flex-col justify-center p-8 md:p-12 xl:pl-[64px] xl:pr-[48px]">
-                <h3 className="text-[32px] font-semibold tracking-[-2%] text-[#8A8884]">
+                <h3 className="text-[28px] md:text-[32px] font-semibold tracking-[-2%] text-[#8A8884]">
                     {testimonial.author}
                 </h3>
 
@@ -176,7 +176,7 @@ export default function TestimonialsSection() {
             <div className="mx-auto w-full">
                 {/* Header */}
                 <div className="mb-16 px-5 text-center md:px-[100px]">
-                    <h2 className="text-[40px] font-semibold leading-[48px] tracking-[-2%] text-[#14120F]">
+                    <h2 className="text-[32px] md:text-[40px] font-semibold leading-[40px] md:leading-[48px] tracking-[-2%] text-[#14120F]">
                         Real Voices, Real Experiences
                     </h2>
                     <p className="mx-auto mt-4 max-w-[734px] text-base font-normal leading-[1.6] text-[#6B6B6B]">

@@ -23,10 +23,11 @@ const HeroSection = () => {
             <Link href="/publish">Publish Your Book</Link>
           </Button>
           <Button
+            asChild
             variant="outline"
             className="border-background text-background px-10 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#14120f]"
           >
-            Explore Our Services
+            <Link href="/services">Explore Our Services</Link>
           </Button>
         </div>
 

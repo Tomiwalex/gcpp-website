@@ -43,7 +43,7 @@ export function PricingCard({
             <div className="space-y-[22px]">
                 {/* Package name with gradient */}
                 <h3
-                    className="text-[32px] font-semibold leading-[40px] tracking-[-2%]"
+                    className="text-[28px] md:text-[32px] font-semibold leading-[40px] tracking-[-2%]"
                     style={{
                         background: 'linear-gradient(180deg, #FEE416 0%, #EB9202 100%)',
                         WebkitBackgroundClip: 'text',
@@ -60,7 +60,7 @@ export function PricingCard({
                 </p>
 
                 {/* Price */}
-                <p className="text-[32px] font-semibold leading-[35px] tracking-[-2%] text-[#14120F]">
+                <p className="text-[28px] md:text-[32px] font-semibold leading-[35px] tracking-[-2%] text-[#14120F]">
                     {price}
                     {priceNote && (
                         <span className="text-base font-normal tracking-normal">

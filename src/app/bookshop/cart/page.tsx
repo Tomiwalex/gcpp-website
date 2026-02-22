@@ -22,7 +22,7 @@ export default function CartPage() {
             <div className="min-h-screen bg-[#F9F9F9] pb-20 pt-[75px]">
                 <div className="mx-auto w-full max-w-[1512px] px-5 md:px-[100px]">
                     {/* Page Title */}
-                    <h1 className="mb-[21px] text-center font-[Manrope] text-[32px] font-semibold leading-[48px] tracking-[-0.02em] text-[#14120F]">
+                    <h1 className="mb-[21px] text-center font-[Manrope] text-[28px] md:text-[32px] font-semibold leading-[48px] tracking-[-0.02em] text-[#14120F]">
                         Your Cart
                     </h1>
 
@@ -172,7 +172,7 @@ export default function CartPage() {
                 <div className="mt-16 w-full border-t border-[#D7D7D7] bg-[#F9F9F9] px-5 pt-16 md:px-[40px] lg:px-[80px] xl:px-[112px]">
                     <div className="mx-auto w-full max-w-[1512px]">
                         <div className="flex flex-col gap-[21px]">
-                            <h2 className="font-[Manrope] text-[32px] font-semibold leading-[48px] tracking-[-0.02em] text-[#14120F]">
+                            <h2 className="font-[Manrope] text-[28px] md:text-[32px] font-semibold leading-[48px] tracking-[-0.02em] text-[#14120F]">
                                 Other Recommendations
                             </h2>
 

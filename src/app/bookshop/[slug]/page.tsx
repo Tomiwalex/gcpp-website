@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { books } from '@/data/books';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Minus, Plus, ChevronLeft, Star } from 'lucide-react';
+import { Minus, Plus, ChevronLeft } from 'lucide-react';
 import { useState } from 'react';
 import BookCard from '@/components/screens/bookshop/BookCard';
 import { cn } from '@/lib/utils';
@@ -280,49 +280,57 @@ export default function BookPage() {
                             <TabsContent value="reviews">
                                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-[28px]">
                                     {/* Review 1 */}
-                                    <div className="flex flex-col gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
+                                    <div className="flex flex-col gap-[32px] md:gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
                                         <p className="font-[Manrope] text-[16px] font-normal text-[#14120F] leading-[150%]">
                                             &quot;The Good Hawk&quot; is unlike any fantasy book I’ve read before. Agatha is such a unique and courageous character, and her journey is both inspiring and heart-pounding. I loved the Scottish setting—it felt so wild and magical. The story was unpredictable, emotional, and left me wanting more. Highly recommend!
                                         </p>
                                         <div className="flex gap-[5.6px]">
                                             {[...Array(5)].map((_, i) => (
-                                                <Star key={i} className="w-[28px] h-[28px] fill-[#219653] text-[#219653]" />
+                                                <svg key={i} className="w-[28px] h-[28px] text-[#219653]" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.89655 15.0938L14.1968 13.9423L15.9935 19.7931L9.89655 15.0938ZM19.7931 7.53134H12.2234L9.89655 0L7.56969 7.53134H0L6.12644 12.1995L3.79957 19.7309L9.92601 15.0627L13.6961 12.1995L19.7931 7.53134Z" fill="currentColor" />
+                                                </svg>
                                             ))}
                                         </div>
                                     </div>
 
                                     {/* Review 2 */}
-                                    <div className="flex flex-col gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
+                                    <div className="flex flex-col gap-[32px] md:gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
                                         <p className="font-[Manrope] text-[16px] font-normal text-[#14120F] leading-[150%]">
                                             I really enjoyed this book! The relationship between Agatha and Jaime is beautifully written, and the representation of Agatha as a protagonist with Down syndrome is handled so well. Some parts of the story felt rushed, but the world-building and action made up for it. Can’t wait to read the sequel!
                                         </p>
                                         <div className="flex gap-[5.6px]">
                                             {[...Array(5)].map((_, i) => (
-                                                <Star key={i} className="w-[28px] h-[28px] fill-[#219653] text-[#219653]" />
+                                                <svg key={i} className="w-[28px] h-[28px] text-[#219653]" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.89655 15.0938L14.1968 13.9423L15.9935 19.7931L9.89655 15.0938ZM19.7931 7.53134H12.2234L9.89655 0L7.56969 7.53134H0L6.12644 12.1995L3.79957 19.7309L9.92601 15.0627L13.6961 12.1995L19.7931 7.53134Z" fill="currentColor" />
+                                                </svg>
                                             ))}
                                         </div>
                                     </div>
 
                                     {/* Review 3 */}
-                                    <div className="flex flex-col gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
+                                    <div className="flex flex-col gap-[32px] md:gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
                                         <p className="font-[Manrope] text-[16px] font-normal text-[#14120F] leading-[150%]">
                                             I had mixed feelings about this book. I loved Agatha’s perspective—she’s a fantastic and refreshing character. However, the plot didn’t grip me as much as I hoped, and some of the pacing felt uneven. It’s still worth reading for the representation and unique setting.
                                         </p>
                                         <div className="flex gap-[5.6px]">
                                             {[...Array(5)].map((_, i) => (
-                                                <Star key={i} className="w-[28px] h-[28px] fill-[#219653] text-[#219653]" />
+                                                <svg key={i} className="w-[28px] h-[28px] text-[#219653]" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.89655 15.0938L14.1968 13.9423L15.9935 19.7931L9.89655 15.0938ZM19.7931 7.53134H12.2234L9.89655 0L7.56969 7.53134H0L6.12644 12.1995L3.79957 19.7309L9.92601 15.0627L13.6961 12.1995L19.7931 7.53134Z" fill="currentColor" />
+                                                </svg>
                                             ))}
                                         </div>
                                     </div>
 
                                     {/* Review 4 */}
-                                    <div className="flex flex-col gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
+                                    <div className="flex flex-col gap-[32px] md:gap-[56px] p-[24px_16px] bg-white border border-[#E0E0E0]">
                                         <p className="font-[Manrope] text-[16px] font-normal text-[#14120F] leading-[150%]">
                                             What an adventure! I couldn’t put this book down. Agatha is one of the most memorable characters I’ve ever read about, and the blend of ancient Scotland with fantasy elements was so well done. Joseph Elliott is an author to watch!
                                         </p>
                                         <div className="flex gap-[5.6px]">
                                             {[...Array(5)].map((_, i) => (
-                                                <Star key={i} className="w-[28px] h-[28px] fill-[#219653] text-[#219653]" />
+                                                <svg key={i} className="w-[28px] h-[28px] text-[#219653]" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.89655 15.0938L14.1968 13.9423L15.9935 19.7931L9.89655 15.0938ZM19.7931 7.53134H12.2234L9.89655 0L7.56969 7.53134H0L6.12644 12.1995L3.79957 19.7309L9.92601 15.0627L13.6961 12.1995L19.7931 7.53134Z" fill="currentColor" />
+                                                </svg>
                                             ))}
                                         </div>
                                     </div>
@@ -350,7 +358,7 @@ export default function BookPage() {
             <div className="w-full bg-[#F9F9F9] border-t border-[#D7D7D7] pt-16 pb-24 px-5 md:px-[40px] lg:px-[80px] xl:px-[112px]">
                 <div className="mx-auto w-full max-w-[1512px]">
                     <div className="flex flex-col gap-[21px]">
-                        <h2 className="font-[Manrope] text-[32px] font-semibold text-[#14120F] leading-[48px] tracking-[-0.02em]">Other Recommendations</h2>
+                        <h2 className="font-[Manrope] text-[28px] md:text-[32px] font-semibold text-[#14120F] leading-[48px] tracking-[-0.02em]">Other Recommendations</h2>
 
                         {/* Books Grid - 5 columns on desktop */}
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mb-12">

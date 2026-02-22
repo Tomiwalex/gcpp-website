@@ -66,7 +66,7 @@ export default function ReviewCard() {
             >
               {/* testimonial texts */}
               <div className="flex h-full w-full max-w-[535px] flex-col justify-center p-6 md:px-8 lg:pr-10 lg:pl-12">
-                <h3 className="text-4xl font-semibold text-[#8A8884]">
+                <h3 className="text-3xl md:text-4xl font-semibold text-[#8A8884]">
                   {review.name}
                 </h3>
 

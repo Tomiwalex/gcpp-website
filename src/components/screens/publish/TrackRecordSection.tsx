@@ -98,7 +98,7 @@ export default function TrackRecordSection() {
             <div className="mx-auto w-full max-w-[1512px]">
                 {/* Header */}
                 <div className="mb-12 flex flex-col items-center">
-                    <h2 className="max-w-[800px] text-center text-[32px] font-semibold leading-[1.2] tracking-[-2%] text-[#14120F] lg:text-[36px]">
+                    <h2 className="max-w-[800px] text-center text-[28px] md:text-[32px] font-semibold leading-[1.2] tracking-[-2%] text-[#14120F] lg:text-[36px]">
                         Explore our proven track record of <br />
                         excellence.{' '}
                         <span className="font-normal text-[#14120F]">

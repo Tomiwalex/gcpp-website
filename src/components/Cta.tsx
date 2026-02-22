@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Cta() {
   return (
@@ -18,12 +19,15 @@ export default function Cta() {
               and excellence it deserves.
             </p>
             <div className="mt-7 flex flex-wrap gap-5 lg:mt-10 lg:flex-nowrap">
-              <Button className="px-10 font-medium">Publish Your Book</Button>
+              <Button asChild className="px-10 font-medium">
+                <Link href="/publish">Publish Your Book</Link>
+              </Button>
               <Button
+                asChild
                 variant="outline"
                 className="border-background text-background px-10 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#14120f]"
               >
-                Explore Our Services
+                <Link href="/services">Explore Our Services</Link>
               </Button>
             </div>
           </div>

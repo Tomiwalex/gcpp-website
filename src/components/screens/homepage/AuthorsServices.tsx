@@ -7,7 +7,7 @@ export default function AuthorsServices() {
   return (
     <section className="bg-[#F9F9F9] p-5 py-14 md:px-[100px] lg:py-24">
       <div className="mx-auto w-full max-w-[1512px]">
-        <h2 className="mb-5 text-center text-4xl font-semibold text-[#14120F] lg:mb-6 lg:text-[40px]">
+        <h2 className="mb-5 text-center text-3xl md:text-4xl font-semibold text-[#14120F] lg:mb-6 lg:text-[40px]">
           Services for Authors
         </h2>
 
@@ -27,7 +27,7 @@ export default function AuthorsServices() {
               className="h-auto w-12 lg:w-14"
             />
 
-            <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
+            <h3 className="mt-3 text-[24px] md:text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
               {services.publishing.heading}
             </h3>
 
@@ -58,7 +58,7 @@ export default function AuthorsServices() {
               className="h-auto w-12 lg:w-14"
             />
 
-            <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
+            <h3 className="mt-3 text-[24px] md:text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
               {services.design.heading}
             </h3>
 
@@ -88,7 +88,7 @@ export default function AuthorsServices() {
               height={50}
               className="h-auto w-12 lg:w-14"
             />
-            <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
+            <h3 className="mt-3 text-[24px] md:text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
               {services.solutions.heading}
             </h3>
 
