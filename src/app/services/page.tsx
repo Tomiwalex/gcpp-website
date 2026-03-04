@@ -49,11 +49,11 @@ const page = () => {
             <div className="mx-auto flex w-full max-w-[978px] flex-wrap justify-center gap-2">
               {services.publishing.services.map((service, index) => (
                 <Link
-                  href={'#'}
+                  href={service.href}
                   key={index}
                   className="flex w-full items-center justify-center gap-2 rounded border border-[#D0CCCC] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] md:max-w-[320px] lg:text-lg"
                 >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
+                  {service.name} <Icon icon="radix-icons:arrow-top-right" />
                 </Link>
               ))}
             </div>
@@ -86,11 +86,11 @@ const page = () => {
             <div className="mx-auto flex w-full max-w-[978px] flex-wrap justify-center gap-2">
               {services.design.services.map((service, index) => (
                 <Link
-                  href={'#'}
+                  href={typeof service === 'string' ? '#' : service.href}
                   key={index}
                   className="flex w-full items-center justify-center gap-2 rounded border border-[#D0CCCC] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] md:max-w-[320px] lg:text-lg"
                 >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
+                  {typeof service === 'string' ? service : service.name} <Icon icon="radix-icons:arrow-top-right" />
                 </Link>
               ))}
             </div>

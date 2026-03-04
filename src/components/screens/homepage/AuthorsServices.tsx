@@ -38,11 +38,11 @@ export default function AuthorsServices() {
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
               {services.publishing.services.map((service, index) => (
                 <Link
-                  href={'#'}
+                  href={service.href || '#'}
                   key={index}
                   className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
                 >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
+                  {service.name} <Icon icon="radix-icons:arrow-top-right" />
                 </Link>
               ))}
             </div>
@@ -99,11 +99,11 @@ export default function AuthorsServices() {
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
               {services.solutions.services.map((service, index) => (
                 <Link
-                  href={'#'}
+                  href={typeof service === 'string' ? '#' : service.href || '#'}
                   key={index}
                   className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
                 >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
+                  {typeof service === 'string' ? service : service.name} <Icon icon="radix-icons:arrow-top-right" />
                 </Link>
               ))}
             </div>

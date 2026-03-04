@@ -23,7 +23,18 @@ const Header = () => {
   const navList = [
     { path: '/', name: 'Home' },
     { path: '/authors', name: 'Authors' },
-    { path: '/services', name: 'Services' },
+    {
+      path: '/services',
+      name: 'Services',
+      subLinks: [
+        { path: '/services/book-publishing', name: 'Book Publishing' },
+        { path: '/services/manuscript-review', name: 'Manuscript Review' },
+        { path: '/services/audiobook-creation', name: 'Audiobook Creation' },
+        { path: '/services/book-cover-design', name: 'Book Cover Design' },
+        { path: '/services/illustrations', name: 'Illustrations' },
+        { path: '/services/web-design', name: 'Web Design' },
+      ],
+    },
     { path: '/bookshop', name: 'Bookshop' },
     { path: '/about', name: 'About us' },
     { path: '/community', name: 'Our Community' },
@@ -94,16 +105,36 @@ const Header = () => {
           {/* nav for desktop */}
           <nav className="hidden max-w-[650px] flex-1 items-center justify-between lg:flex">
             {navList.map((link, index) => (
-              <Link
-                href={link.path}
-                className={`cursor-pointer ${pathname === link.path
-                  ? 'font-semibold text-[#EB9202]'
-                  : 'font-normal text-white'
-                  } relative text-sm after:absolute after:bottom-[-10px] after:left-[50%] after:h-[6px] after:w-[6px] after:rounded-full after:bg-[#EB9202] after:opacity-0 after:transition-all after:duration-300 after:ease-in-out hover:after:opacity-100`}
-                key={index}
-              >
-                {link.name}
-              </Link>
+              <div key={index} className="group relative">
+                <Link
+                  href={link.path}
+                  className={`flex items-center gap-1 cursor-pointer ${pathname === link.path || (link.subLinks && link.subLinks.some(s => pathname === s.path))
+                    ? 'font-semibold text-[#EB9202]'
+                    : 'font-normal text-white'
+                    } relative text-sm after:absolute after:bottom-[-10px] after:left-[50%] after:h-[6px] after:w-[6px] after:rounded-full after:bg-[#EB9202] after:opacity-0 after:transition-all after:duration-300 after:ease-in-out hover:after:opacity-100`}
+                >
+                  {link.name}
+                  {link.subLinks && (
+                    <Icon icon="lucide:chevron-down" className="text-xs transition-transform duration-300 group-hover:rotate-180" />
+                  )}
+                </Link>
+
+                {link.subLinks && (
+                  <div className="invisible absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                    <div className="flex w-[220px] flex-col overflow-hidden rounded-lg border border-[#1E1E1E] bg-[#14120F] shadow-xl">
+                      {link.subLinks.map((sub, sIndex) => (
+                        <Link
+                          key={sIndex}
+                          href={sub.path}
+                          className="px-4 py-3 text-sm text-white transition-colors hover:bg-[#1E1E1E] hover:text-[#EB9202]"
+                        >
+                          {sub.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             ))}
           </nav>
 
@@ -139,30 +170,47 @@ const Header = () => {
               initial={{ opacity: 1 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed top-[80px] left-0 z-[20] h-[calc(100dvh-80px)] w-[100dvw] bg-[#14120F30] backdrop-blur-md md:hidden"
+              className="fixed top-[80px] left-0 z-[20] h-[calc(100dvh-80px)] w-[100dvw] bg-[#14120F30] backdrop-blur-md lg:hidden"
             >
               <motion.div
-                initial={{ translateX: '30%' }}
-                exit={{ translateX: '30%' }}
+                initial={{ translateX: '100%' }}
+                exit={{ translateX: '100%' }}
                 animate={{ translateX: 0 }}
-                className="ml-auto h-full w-[60%] max-w-[300px] bg-[#14120F]"
+                className="ml-auto h-full w-[80%] max-w-[300px] bg-[#14120F] overflow-y-auto"
               >
-                <nav className="flex flex-col gap-7 p-7">
+                <nav className="flex flex-col gap-6 p-7">
                   {navList.map((link, index) => (
-                    <Link
-                      href={link.path}
-                      className={`cursor-pointer text-base ${location.pathname === link.path
-                        ? 'font-semibold text-[#EB9202]'
-                        : 'font-medium text-white'
-                        } relative`}
-                      key={index}
-                    >
-                      {link.name}
-                    </Link>
+                    <div key={index} className="flex flex-col gap-3">
+                      <Link
+                        href={link.path}
+                        onClick={() => !link.subLinks && setMenuOpen(false)}
+                        className={`cursor-pointer text-lg ${pathname === link.path
+                          ? 'font-semibold text-[#EB9202]'
+                          : 'font-medium text-white'
+                          }`}
+                      >
+                        {link.name}
+                      </Link>
+                      {link.subLinks && (
+                        <div className="flex flex-col gap-3 pl-4 border-l border-[#1E1E1E]">
+                          {link.subLinks.map((sub, sIndex) => (
+                            <Link
+                              key={sIndex}
+                              href={sub.path}
+                              onClick={() => setMenuOpen(false)}
+                              className={`text-sm ${pathname === sub.path ? 'text-[#EB9202]' : 'text-[#ACACAC]'
+                                }`}
+                            >
+                              {sub.name}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   ))}
 
                   {/* schedule a consult */}
-                  <Button className="h-8 rounded px-4 py-2 text-[13px] font-medium transition-all duration-300 ease-in-out">
+                  <Button className="h-10 mt-4 rounded px-4 py-2 text-sm font-medium transition-all duration-300 ease-in-out">
                     Schedule a consult
                   </Button>
                 </nav>

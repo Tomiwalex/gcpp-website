@@ -13,6 +13,7 @@ export interface PricingCardProps {
     priceNote?: string;
     features: PricingFeature[];
     featured?: boolean;
+    priceVertical?: boolean;
     ctaLabel?: string;
     ctaHref?: string;
     className?: string;
@@ -25,8 +26,9 @@ export function PricingCard({
     priceNote,
     features,
     featured = false,
+    priceVertical = false,
     ctaLabel = 'Get Started',
-    ctaHref = '/publish#contact',
+    ctaHref = '/services/book-publishing#contact',
     className,
 }: PricingCardProps) {
     return (
@@ -60,15 +62,16 @@ export function PricingCard({
                 </p>
 
                 {/* Price */}
-                <p className="text-[28px] md:text-[32px] font-semibold leading-[35px] tracking-[-2%] text-[#14120F]">
-                    {price}
+                <div className={cn("flex text-[#14120F]", priceVertical ? "flex-col gap-3" : "items-baseline gap-1")}>
+                    <p className="text-[28px] md:text-[32px] font-semibold leading-[35px] tracking-[-2%]">
+                        {price}
+                    </p>
                     {priceNote && (
-                        <span className="text-base font-normal tracking-normal">
-                            {' '}
+                        <p className={cn("text-base tracking-normal", priceVertical ? "font-semibold leading-[22px]" : "font-normal")}>
                             {priceNote}
-                        </span>
+                        </p>
                     )}
-                </p>
+                </div>
             </div>
 
             {/* CTA Button - Moved to the middle */}

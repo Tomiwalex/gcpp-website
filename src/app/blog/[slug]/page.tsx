@@ -16,8 +16,8 @@ export default async function BlogDetail({ params }: Props) {
         title: 'Common Mistakes First-Time Authors Make and How to Avoid Them',
         date: '25 August, 2024',
         author: 'Kwadw(o) Naya',
-        mainImage: '/images/blog/pexels-divinetechygirl-1181408 1.png',
-        secondaryImage: '/images/blog/pexels-rdne-7821484 1.png',
+        mainImage: '/images/blog/pexels-divinetechygirl-1181408-1.png',
+        secondaryImage: '/images/blog/pexels-rdne-7821484-1.png',
     };
 
     const moreArticles = articles

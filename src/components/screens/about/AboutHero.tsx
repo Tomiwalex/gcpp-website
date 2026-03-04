@@ -24,7 +24,7 @@ export default function AboutHero() {
                 {/* Image section */}
                 <div className="relative w-full aspect-[2/1] lg:aspect-[4/1] overflow-hidden rounded bg-black mt-4">
                     <Image
-                        src="/images/pexels-divinetechygirl-1181408 1.png"
+                        src="/images/blog/pexels-divinetechygirl-1181408-1.png"
                         alt="About GCPP"
                         fill
                         className="object-cover opacity-50"

@@ -4,7 +4,7 @@ import ServicesSection from '@/components/screens/publish/ServicesSection';
 import TestimonialsSection from '@/components/screens/publish/TestimonialsSection';
 
 export const metadata = {
-    title: 'Publish Your Book | GCPP',
+    title: 'Book Publishing | GCPP',
     description:
         'Publish your book with GCPP. Choose from our flexible publishing packages — Basic, Standard, or Premium — and bring your story to readers worldwide.',
 };

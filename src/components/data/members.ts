@@ -46,8 +46,7 @@ export const members = [
   {
     name: 'Sam The Word',
     country: 'Zanibar',
-    flagSrc:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Zanzibar.svg/1024px-Flag_of_Zanzibar.svg.png',
+    flagSrc: 'https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/tz-zanzibar.svg',
     imageSrc:
       'https://res.cloudinary.com/degg7xvzv/image/upload/v1744100319/GCPP/Frontend-images/WhatsApp_Image_2025-04-07_at_11.03.16_3f8f1b40_cny8vu.jpg',
   },
@@ -121,25 +120,25 @@ export const members = [
   {
     name: 'Mr. Ken Brown',
     country: 'Lithuania',
-    flagSrc: '/images/authorpreneur/Lebanon (LE).png',
+    flagSrc: 'https://flagcdn.com/w320/lt.png',
     imageSrc: '/images/authorpreneur/Mr. Ken Brown.png',
   },
   {
     name: 'Grace Graham',
     country: 'Trinidad and Tobago',
-    flagSrc: '/images/authorpreneur/Algeria (DZ).png',
+    flagSrc: 'https://flagcdn.com/w320/tt.png',
     imageSrc: '/images/authorpreneur/Grace Graham.png',
   },
   {
     name: 'Kristy Wolff Sr.',
     country: 'Iceland',
-    flagSrc: '/images/authorpreneur/iceland.png',
+    flagSrc: 'https://flagcdn.com/w320/is.png',
     imageSrc: '/images/authorpreneur/Kristy Wolff Sr..png',
   },
   {
     name: 'Angelica Bernathy',
     country: 'Bhutan',
-    flagSrc: '/images/authorpreneur/India (IN).png',
+    flagSrc: 'https://flagcdn.com/w320/bt.png',
     imageSrc: '/images/authorpreneur/Angelica Bernathy.png',
   },
 ];

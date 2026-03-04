@@ -20,7 +20,7 @@ const HeroSection = () => {
 
         <div className="mt-10 space-y-6 space-x-6">
           <Button asChild className="px-10 font-medium">
-            <Link href="/publish">Publish Your Book</Link>
+            <Link href="/services/book-publishing">Publish Your Book</Link>
           </Button>
           <Button
             asChild

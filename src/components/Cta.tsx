@@ -20,7 +20,7 @@ export default function Cta() {
             </p>
             <div className="mt-7 flex flex-wrap gap-5 lg:mt-10 lg:flex-nowrap">
               <Button asChild className="px-10 font-medium">
-                <Link href="/publish">Publish Your Book</Link>
+                <Link href="/services/book-publishing">Publish Your Book</Link>
               </Button>
               <Button
                 asChild

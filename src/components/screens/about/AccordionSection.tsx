@@ -89,7 +89,7 @@ export default function AccordionSection() {
                                 </div>
                                 <div className="relative h-[250px] w-full max-w-[510px] shrink-0 overflow-hidden rounded-[4px] bg-white md:h-[373px]">
                                     <Image
-                                        src="/images/pexels-divinetechygirl-1181408 1.png"
+                                        src="/images/blog/pexels-divinetechygirl-1181408-1.png"
                                         alt="What we offer"
                                         fill
                                         className="object-cover"

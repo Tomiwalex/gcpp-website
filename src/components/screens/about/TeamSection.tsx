@@ -7,47 +7,47 @@ const teamMembers = [
     {
         name: 'Jerry Ryan',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by Ifeyinka Adeyemo.png',
+        image: '/images/team/Ifeyinka-Adeyemo.png',
     },
     {
         name: 'Nathan Romaguera',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/image 13.png',
+        image: '/images/team/image-13.png',
     },
     {
         name: "Garry O'Reilly",
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by Eric Moura.png',
+        image: '/images/team/Eric-Moura.png',
     },
     {
         name: 'Lila Hane II',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by Lord Ander Fotografia.png',
+        image: '/images/team/Lord-Ander-Fotografia.png',
     },
     {
         name: 'Stella Abbott Jr.',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by afshin aliabadi.png',
+        image: '/images/team/afshin-aliabadi.png',
     },
     {
         name: 'Terri Goodwin',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by Ono  Kosuki.png',
+        image: '/images/team/Ono-Kosuki.png',
     },
     {
         name: 'Evelyn Foster',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by Ifeyinka Adeyemo.png',
+        image: '/images/team/Ifeyinka-Adeyemo.png',
     },
     {
         name: 'Marcus Chen',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/image 13.png',
+        image: '/images/team/image-13.png',
     },
     {
         name: 'Sarah Williams',
         role: 'Tailored for women in the working class, this course is designed to accelerate your career with essential Data Science skills.',
-        image: '/images/team/Pexels Photo by Eric Moura.png',
+        image: '/images/team/Eric-Moura.png',
     },
 ];
 
