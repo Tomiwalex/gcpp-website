@@ -67,15 +67,21 @@ export default function AuthorsServices() {
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.design.services.map((service, index) => (
-                <Link
-                  href={'#'}
-                  key={index}
-                  className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
-                >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
-                </Link>
-              ))}
+              {services.design.services.map((service, index) => {
+                const isObject = typeof service !== 'string' && service !== null;
+                const name = isObject ? (service as any).name : (service as string);
+                const href = isObject ? (service as any).href : '#';
+
+                return (
+                  <Link
+                    href={href}
+                    key={index}
+                    className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
+                  >
+                    {name} <Icon icon="radix-icons:arrow-top-right" />
+                  </Link>
+                );
+              })}
             </div>
           </div>
 
@@ -97,15 +103,20 @@ export default function AuthorsServices() {
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.solutions.services.map((service, index) => (
-                <Link
-                  href={typeof service === 'string' ? '#' : service.href || '#'}
-                  key={index}
-                  className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
-                >
-                  {typeof service === 'string' ? service : service.name} <Icon icon="radix-icons:arrow-top-right" />
-                </Link>
-              ))}
+              {services.solutions.services.map((service, index) => {
+                const isObject = typeof service !== 'string' && service !== null;
+                const name = isObject ? (service as any).name : (service as string);
+                const href = isObject ? (service as any).href : '#';
+                return (
+                  <Link
+                    href={href}
+                    key={index}
+                    className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
+                  >
+                    {name} <Icon icon="radix-icons:arrow-top-right" />
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

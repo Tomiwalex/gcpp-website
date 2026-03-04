@@ -183,7 +183,7 @@ const Header = () => {
                     <div key={index} className="flex flex-col gap-3">
                       <Link
                         href={link.path}
-                        onClick={() => !link.subLinks && setMenuOpen(false)}
+                        onClick={() => setMenuOpen(false)}
                         className={`cursor-pointer text-lg ${pathname === link.path
                           ? 'font-semibold text-[#EB9202]'
                           : 'font-medium text-white'
@@ -210,7 +210,10 @@ const Header = () => {
                   ))}
 
                   {/* schedule a consult */}
-                  <Button className="h-10 mt-4 rounded px-4 py-2 text-sm font-medium transition-all duration-300 ease-in-out">
+                  <Button
+                    onClick={() => setMenuOpen(false)}
+                    className="h-10 mt-4 rounded px-4 py-2 text-sm font-medium transition-all duration-300 ease-in-out"
+                  >
                     Schedule a consult
                   </Button>
                 </nav>
