@@ -40,7 +40,7 @@ const FeaturedBlog = ({ post }: { post?: any }) => {
             </div>
 
             <Link
-              href=""
+              href="/blog/common-mistakes"
               className="mt-10 inline-block w-max rounded-[2px] border border-[#14120F] px-10 py-3 text-sm font-normal text-[#14120F] transition-all duration-500 ease-in-out hover:bg-[#14120f] hover:text-white lg:px-12 lg:text-base"
             >
               Read more

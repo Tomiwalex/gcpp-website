@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import StarRating from '@/components/customui/StarRating';
 import { Icon } from '@iconify/react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const HeroSection = () => {
   return (
@@ -18,12 +19,15 @@ const HeroSection = () => {
         </p>
 
         <div className="mt-10 space-y-6 space-x-6">
-          <Button className="px-10 font-medium">Publish Your Book</Button>
+          <Button asChild className="px-10 font-medium">
+            <Link href="/services/book-publishing">Publish Your Book</Link>
+          </Button>
           <Button
+            asChild
             variant="outline"
             className="border-background text-background px-10 transition-all duration-300 ease-in-out hover:bg-white hover:text-[#14120f]"
           >
-            Explore Our Services
+            <Link href="/services">Explore Our Services</Link>
           </Button>
         </div>
 

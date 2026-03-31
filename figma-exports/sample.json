@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "1:1": {
+            "document": {
+                "id": "1:1",
+                "name": "Test Node",
+                "type": "FRAME",
+                "children": [
+                    {
+                        "id": "1:2",
+                        "name": "Submit Button",
+                        "type": "TEXT",
+                        "characters": "Click me to Submit",
+                        "fills": [
+                            {
+                                "type": "solid",
+                                "color": {
+                                    "r": 1,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 1
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

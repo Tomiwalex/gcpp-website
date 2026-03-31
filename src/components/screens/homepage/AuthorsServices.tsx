@@ -7,7 +7,7 @@ export default function AuthorsServices() {
   return (
     <section className="bg-[#F9F9F9] p-5 py-14 md:px-[100px] lg:py-24">
       <div className="mx-auto w-full max-w-[1512px]">
-        <h2 className="mb-5 text-center text-4xl font-semibold text-[#14120F] lg:mb-6 lg:text-[40px]">
+        <h2 className="mb-5 text-center text-3xl md:text-4xl font-semibold text-[#14120F] lg:mb-6 lg:text-[40px]">
           Services for Authors
         </h2>
 
@@ -27,7 +27,7 @@ export default function AuthorsServices() {
               className="h-auto w-12 lg:w-14"
             />
 
-            <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
+            <h3 className="mt-3 text-[24px] md:text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
               {services.publishing.heading}
             </h3>
 
@@ -38,11 +38,11 @@ export default function AuthorsServices() {
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
               {services.publishing.services.map((service, index) => (
                 <Link
-                  href={'#'}
+                  href={service.href || '#'}
                   key={index}
                   className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
                 >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
+                  {service.name} <Icon icon="radix-icons:arrow-top-right" />
                 </Link>
               ))}
             </div>
@@ -58,7 +58,7 @@ export default function AuthorsServices() {
               className="h-auto w-12 lg:w-14"
             />
 
-            <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
+            <h3 className="mt-3 text-[24px] md:text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
               {services.design.heading}
             </h3>
 
@@ -67,15 +67,21 @@ export default function AuthorsServices() {
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.design.services.map((service, index) => (
-                <Link
-                  href={'#'}
-                  key={index}
-                  className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
-                >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
-                </Link>
-              ))}
+              {services.design.services.map((service, index) => {
+                const isObject = typeof service !== 'string' && service !== null;
+                const name = isObject ? (service as any).name : (service as string);
+                const href = isObject ? (service as any).href : '#';
+
+                return (
+                  <Link
+                    href={href}
+                    key={index}
+                    className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
+                  >
+                    {name} <Icon icon="radix-icons:arrow-top-right" />
+                  </Link>
+                );
+              })}
             </div>
           </div>
 
@@ -88,7 +94,7 @@ export default function AuthorsServices() {
               height={50}
               className="h-auto w-12 lg:w-14"
             />
-            <h3 className="mt-3 text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
+            <h3 className="mt-3 text-[24px] md:text-[28px] font-semibold text-[#14120F] lg:text-[2rem]">
               {services.solutions.heading}
             </h3>
 
@@ -97,15 +103,20 @@ export default function AuthorsServices() {
             </p>
 
             <div className="mt-8 grid w-full grid-cols-1 gap-2">
-              {services.solutions.services.map((service, index) => (
-                <Link
-                  href={'#'}
-                  key={index}
-                  className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
-                >
-                  {service} <Icon icon="radix-icons:arrow-top-right" />
-                </Link>
-              ))}
+              {services.solutions.services.map((service, index) => {
+                const isObject = typeof service !== 'string' && service !== null;
+                const name = isObject ? (service as any).name : (service as string);
+                const href = isObject ? (service as any).href : '#';
+                return (
+                  <Link
+                    href={href}
+                    key={index}
+                    className="flex w-full items-center justify-center gap-2 rounded bg-[#F9F9F9] py-2 text-base leading-[48px] font-medium text-[#6C604E] transition-all duration-300 ease-in-out hover:bg-[#6C604E] hover:text-[#F9F9F9] lg:text-lg"
+                  >
+                    {name} <Icon icon="radix-icons:arrow-top-right" />
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

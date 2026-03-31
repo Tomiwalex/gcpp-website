@@ -44,7 +44,7 @@ export default function BookshopPage() {
         <div className="min-h-screen bg-[#F9F9F9] pb-20 pt-[75px]">
             <div className="mx-auto w-full max-w-[1512px] px-5 md:px-[100px]">
                 <div className="mb-12 space-y-4">
-                    <h1 className="text-4xl font-bold tracking-tight text-[#14120F] sm:text-5xl">Books</h1>
+                    <h1 className="text-4xl font-bold tracking-tight text-[#14120F] md:text-5xl">Books</h1>
                     <p className="max-w-[706px] font-[Manrope] text-[16px] font-normal leading-auto text-[#14120F]">
                         Discover the unique voices behind each book and support their journeys. Find your next inspiring read and make a purchase to support these incredible storytellers.
                     </p>

@@ -1,0 +1,17 @@
+[
+  "Don’t Miss this Opportunity, Get your Membership Now",
+  "This membership will help you elevate your art from hobby to full-time career.",
+  "Monthly Membership",
+  "An elegant single-page website for a sleek online presence.",
+  "$500 Mthly",
+  "Join Now",
+  "Flexibility: Cancel anytime",
+  "Perfect for new members exploring GCPP",
+  "Annual Membership (Best Value!)",
+  "Perfect for authors wanting a multi-page portfolio.",
+  "$59.94",
+  "per year (6 months free!)",
+  "Join Now",
+  "Save 50% compared to the monthly plan",
+  "Includes priority access to consultations and workshops"
+]
