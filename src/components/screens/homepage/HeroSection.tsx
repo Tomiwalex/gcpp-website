@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="relative flex min-h-[calc(100dvh-100px)] items-center object-cover p-5 py-24 md:px-[100px]">
+    <section className="relative flex min-h-[calc(100dvh-100px)] items-center bg-black/80 object-cover p-5 py-24 md:px-[100px]">
       <div className="mx-auto w-full max-w-[1512px]">
         <h1 className="w-full max-w-[591px] text-[2.5rem] leading-[40px] font-semibold text-white lg:text-[3.5rem] lg:leading-[65px] lg:font-medium">
           Your Story, Our Passion for Publishing
@@ -53,10 +53,10 @@ const HeroSection = () => {
       {/* bg image */}
       <div className="absolute inset-0 z-[-1]">
         <Image
-          src="/background-images/hero-bg.png"
+          src="/images/hero-image.jpeg"
           alt="hero-bg"
           fill
-          className="object-cover"
+          className="object-cover lg:object-left-bottom"
         />
       </div>
     </section>
